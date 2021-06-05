@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Donations</title>
+<meta name="viewport" content="initial-scale=1.0">
+
+<style>
+body {
+        font-family: monospace;
+        font-weight: 400;
+        font-size: 15pt;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 50px;
+        
+}
+
+#container {
+        margin: auto;
+        max-width: 40em;
+}
+
+h1 {
+        font-size: 200%;
+}
+
+h2 {
+        font-size: 167%;
+}
+
+h3 {
+        font-size: 75%;
+        font-weight: normal;
+}
+
+
+a {
+        text-decoration: none;
+        font-weight: 600;
+}
+
+p, ul {font-size: 90%;
+        margin-left: 1.5em;
+}
+
+p.lede {
+        font-size: 120%;
+        margin-left: 1.25em;
+}
+
+ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 3em;
+}
+ul li {
+        margin-top: 5pt;
+        margin-bottom: 5pt;
+}
+ul li::before {
+        content: "•";
+        color: #c08e8e;
+        font-weight: bold;
+        display: inline-block;
+        width: 1.1em;
+        margin-left: -1.1em;
+}
+
+blockquote {
+        margin-left: 2.25em;
+        font-style: italic;
+        font-weight: 300;
+        padding-left: 0.75em;
+        border-left: 1px solid #597f7d;
+}
+
+pre {
+        font-family: 'Fira Mono', monospace;
+        font-size: 75%;
+        margin-left: 2em;
+	max-width: 100%;
+	overflow: auto;
+}
+
+img {
+        max-width: 100%;
+}
+
+footer {
+   position: fixed;
+   width: 100%;
+   bottom: 0%;
+   left: 50%;
+   transform: translate(-50%, 0);
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-bottom: 1%;
+   background-color: rgba(24, 23, 20, 0.80); 
+}
+
+
+.button1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: inline-block;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-size: 200%;
+  background-color: #c08e8e; 
+  color: #181714; 
+  border: 2px solid #c08e8e;
+}
+
+.button1:hover {
+  background-color: #181714;
+  color: #c08e8e;
+}
+
+.button2 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 11px;
+  background-color: #181714; 
+  color: #754f4f; 
+  border: 2px solid #754f4f;
+}
+
+.button2:hover {
+  background-color: #754f4f;
+  color: #181714;
+}
+
+/* Colors */
+
+body { background: #181714; color: #c08e8e; }
+p.lede { color: #c08e8e; }
+blockquote { color: #c08e8e; }
+pre { color: #c08e8e; }
+h1 { color: #c08e8e; }
+h2 { color: #c08e8e; }
+h3 { color: #754f4f; }
+
+/* Responsivity */
+
+@media only screen and (max-width: 499px) and (orientation: portrait) {
+        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
+        padding-left: 0; padding-right: 0; }
+}
+@media only screen and (orientation: landscape) and (max-width: 850px) {
+        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
+        padding-left: 0; padding-right: 0; }
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+
+<img src="" title="Image">
+
+<center>
+<h1>Donations</h1> 
+</center>
+<p></p>
+
+<p class="lede">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+<p></p>
+
+<p></p>
+<center>
+<h2>The Funds go to...</h2>
+</center>
+<p></p>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</li>
+</ul>
+<p></p>
+
+<center>
+
+<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=10&currency=USD" class="button button1">10€</a>
+
+<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=50&currency=USD" class="button button1">50€</a>
+
+<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=150&currency=USD" class="button button1">150€</a>
+
+<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=500&currency=USD" class="button button1">500€</a>
+
+</center>
+
+<p></p>
+</div>
+
+</body>
+
+<footer>
+<center>
+<h3>© Website Name  <script>document.write( new Date().getFullYear() );</script> 
+</h3>
+
+<a href="PLACEHOLDER" class="button button2">Home</a>
+
+<a href="PLACEHOLDER" class="button button2">Email</a>
+
+</center>
+</footer>
+
+</html>
