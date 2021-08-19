@@ -1,7 +1,19 @@
 <!DOCTYPE html>
+<!--
+details:
+this is a fork from the orginal donationpage created by PRIM4T.
+thanks for the layout; ww.codepen.io/prim4t 
+
+updates:
+no changes to CSS // the only changes is to the html doc
+switched the layout to a basic blog design
+-->
 <html>
+  <div align="center">
+  <img width="596" height="136" src="img.tiff">
+  </div>
 <head>
-<title>ns_blog</title>
+<title>forked'btcserver-layout_by_PRIM4T</title>
 <meta name="viewport" content="initial-scale=1.0">
 
 <style>
@@ -222,6 +234,10 @@ Hi welcome, we are still creating the site, please stop by again for more conten
 <h5>The Funds go to...</h6>
 </center>
 <p></p>
+<center>
+<h5>The Funds go to...</h6>
+</center>
+<p></p>
 <font size="3"><i>We accept donations <a href="direct_btcserverpage.html"><font color="grey">btc</font></a> / <a href="grin_page.html"><font color="grey">grin</font></a>. Thanks for all the support!</i>
 <!-- 
 maybe have a CSS drop down when you hover over grin, 
@@ -235,8 +251,19 @@ To send a donation, paste your slate into the text-box and hit submit.
 "
 -->
 <ul>
-<li>PRIM4T <i>backend-dev/artist // <a href="https://www.prim4t.art"><font color="grey">PRIM4T.art</font></a></i></li>
-<li>dt <i>technical artist // <a href="https://www.codepen.io/dt_zero"><font color="grey">codepen.io/dt_zero</font></a></li>
+  <li>PRIM4T <i>backend-dev/artist // <a href="www.prim4t.art"  
+    onmouseover='this.style.textDecoration="underline"' 
+    onmouseout='this.style.textDecoration="none"'><font color="grey">PRIM4T.art</font></a></i></li>
+<li>dt <i>technical artist //
+  <a href="codepen.io/dt_zero"
+         onmouseover='this.style.textDecoration="underline"' 
+    onmouseout='this.style.textDecoration="none"'>
+    <font color="grey">codepen.io/dt_zero</font></a>
+    </li>
+  <!--
+hover_effect:
+need help with matching the underline color with font color
+  -->
 </ul>
 </i>
 </font>
@@ -248,13 +275,13 @@ To send a donation, paste your slate into the text-box and hit submit.
 #
 maybe make these smaller? 
 -->
-<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=10&currency=USD" class="button button1">10€</a>
+<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=10&currency=USD" style="cursor:crosshair" class="button button1">10€</a>
 
-<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=50&currency=USD" class="button button1">50€</a>
+<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=50&currency=USD" style="cursor:crosshair" class="button button1">50€</a>
 
-<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=150&currency=USD" class="button button1">150€</a>
+<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=150&currency=USD" style="cursor:crosshair" class="button button1">150€</a>
 
-<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=500&currency=USD" class="button button1">500€</a>
+<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=500&currency=USD" style="cursor:crosshair" class="button button1">500€</a>
 <!-- -->
 <!-- -->
 </center>
@@ -266,10 +293,10 @@ maybe make these smaller?
 
 <footer>
 <center>
-<h3>© NeuroShack.io <script>document.write( new Date().getFullYear() );</script> 
+<h3>© Website Name  <script>document.write( new Date().getFullYear() );</script> 
 </h3>
 
-<a href="./" class="button button2">Home</a>
+<a href="PLACEHOLDER" class="button button2">Home</a>
 
 <a href="PLACEHOLDER" class="button button2">Contact</a>
 
