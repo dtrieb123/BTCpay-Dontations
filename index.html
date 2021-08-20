@@ -213,7 +213,7 @@ Hi welcome, we are still creating the site, please stop by again for more conten
 
 <p></p>
 <center>
-<h5>The Funds go to...</h6>
+<h5>The Funds go to...</h5>
 </center>
 <p></p>
 <font size="3"><i>We accept donations <a href="direct_btcserverpage.html"><font color="grey">btc</font></a> / <a href="grin_page.html"><font color="grey">grin</font></a>. Thanks for all the support!</i>
@@ -242,13 +242,19 @@ To send a donation, paste your slate into the text-box and hit submit.
 #
 maybe make these smaller? 
 -->
-<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=10&currency=USD" class="button button1">10€</a>
 
-<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=50&currency=USD" class="button button1">50€</a>
 
-<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=150&currency=USD" class="button button1">150€</a>
+<h5>Donate BTC</h5>
 
-<a href="https://btcpay816267.lndyn.com/api/v1/invoices?storeId=DDanMe5nu6QQw2BNX79q7C7vuXJVxz2vHptFyWyCxn6X&price=500&currency=USD" class="button button1">500€</a>
+<div>
+<img height="220px" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png">
+</div>
+
+<div>
+<button class="button button2" onclick="Copy()">Copy</button>
+<input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10" maxlength="30" class="copy_text" value="bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn">
+</div>
+
 <!-- -->
 <!-- -->
 </center>
@@ -265,9 +271,17 @@ maybe make these smaller?
 
 <a href="./" class="button button2">Home</a>
 
-<a href="PLACEHOLDER" class="button button2">Contact</a>
+<a href="mailto:d.trieb@mailfence.com" class="button button2">Contact</a>
 
 </center>
 </footer>
+<script>
+var copy_text_val = document.querySelector('.copy_text');
 
+function Copy() {
+  copy_text_val.select();
+  document.execCommand("copy");
+  console.log(copy_text_val.value);
+} 
+</script>
 </html>
