@@ -74,6 +74,17 @@ blockquote {
         border-left: 1px solid #597f7d;
 }
 
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+    display: table-cell;
+   
+}
+
 pre {
         font-family: 'Fira Mono', monospace;
         font-size: 75%;
@@ -145,7 +156,11 @@ h3 { color: #754f4f; }
 
 @media only screen and (max-width: 499px) and (orientation: portrait) {
         body { font-size: 12pt; -webkit-text-size-adjust: 100%;
-        padding-left: 0; padding-right: 0; }
+        padding-left: 0; padding-right: 0; }  
+        
+         div.ascii {
+          font-size: 9px;
+         } 
 }
 @media only screen and (orientation: landscape) and (max-width: 850px) {
         body { font-size: 12pt; -webkit-text-size-adjust: 100%;
@@ -157,11 +172,24 @@ h3 { color: #754f4f; }
 <body>
 <div id="container">
 
+<center>
+
+<div class="ascii">
+</br>
+<pre id=pre  style="font-size: 100%">
+_  _ ____ _  _ ____ ____ ____ _  _ ____ ____ _  _  _ ____ 
+|\ | |___ |  | |__/ |  | [__  |__| |__| |    |_/   | |  | 
+| \| |___ |__| |  \ |__| ___] |  | |  | |___ | \_ .| |__| 
+</pre>
+</div>
+
+
 <img src="" title="Image">
 
-<center>
 <h5>Blog</h1> 
+
 </center>
+
 <p>
 <div>
 	<font size="2" color="whitesmoke">
@@ -246,14 +274,49 @@ maybe make these smaller?
 
 <h5>Donate BTC</h5>
 
-<div>
-<img height="220px" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png">
+
+
+<div class="Row">
+   
+    <div class="Column"><div>
+        <h5>Donate BTC</h5>
+        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png">
+    </div>
+
+    <div>
+        <button class="button button2" onclick="Copy()">Copy</button>
+        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text" value="bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn">
+    </div>
+
+    </div>
+
+    <div class="Column"><div>
+        <h5>Donate ETH</h5>
+        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/ETH.png">
+    </div>
+
+    <div>
+        <button class="button button2" onclick="Copy()">Copy</button>
+        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text" value="0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB">
+    </div>
+      
+    </div>
+
+    <div class="Column"><div>
+        <h5>Donate GRIN</h5>
+        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/grin.png">
+    </div>
+
+    <div>
+        <button class="button button2" onclick="Copy()">Copy</button>
+        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+    </div>
+      <h5>Coming soon</h5>
+    </div>
+
 </div>
 
-<div>
-<button class="button button2" onclick="Copy()">Copy</button>
-<input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10" maxlength="30" class="copy_text" value="bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn">
-</div>
+
 
 <!-- -->
 <!-- -->
