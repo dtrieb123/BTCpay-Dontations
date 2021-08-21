@@ -299,8 +299,8 @@ maybe make these smaller?
     </div>
 
     <div>
-        <button class="button button2" onclick="Copy()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text" value="0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB">
+        <button class="button button2" onclick="Copy2()">Copy</button>
+        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text2" value="0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB">
     </div>
       
     </div>
@@ -311,8 +311,8 @@ maybe make these smaller?
     </div>
 
     <div>
-        <button class="button button2" onclick="Copy()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+        <button class="button button2" onclick="Copy3()">Copy</button>
+        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text3" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
     </div>
       <h5>Coming soon</h5>
     </div>
@@ -347,6 +347,22 @@ var copy_text_val = document.querySelector('.copy_text');
 function Copy() {
   copy_text_val.select();
   document.execCommand("copy");
+  console.log(copy_text_val.value);
+} 
+
+var copy_text_val2 = document.querySelector('.copy_text2');
+
+function Copy2() {
+  copy_text_val2.select();
+  document.execCommand("copy2");
+  console.log(copy_text_val.value);
+} 
+
+var copy_text_val3 = document.querySelector('.copy_text3');
+
+function Copy3() {
+  copy_text_val3.select();
+  document.execCommand("copy3");
   console.log(copy_text_val.value);
 } 
 </script>
