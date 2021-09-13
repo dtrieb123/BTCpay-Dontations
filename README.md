@@ -1,3 +1,6 @@
-# BTCpay-Dontations
+# Neuroshack.io - NFTs from and for Artists!
 
-Code for a minimal Donation Website with BTCpay
+ToDo-List:
+- 1
+- 2
+- 3
