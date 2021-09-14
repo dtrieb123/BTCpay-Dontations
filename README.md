@@ -22,7 +22,7 @@
 
 ##### Buy our NFTs 🖼️: [OpenSEA](https://opensea.io/Neuroshack) 
 
-##### Socials: [Hive](https://hive.blog/) | [DTube](https://dtube.com/) | [Youtube] (https://www.youtube.com/) |
+##### Socials: [Hive](https://hive.blog/) | [DTube](https://dtube.com/) | [Youtube](https://www.youtube.com/) |
 
 ##### Donations are always welcome:
 
