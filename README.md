@@ -15,7 +15,6 @@
 
 <a name="neuro"></a>
 #  What is NEUROSHACK?
-<a > <img height ='300px' src ='https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif'> 
 
 #### Hi welcome, we are still creating the site, please stop by again for more content. We are a team of artists and developers that create NFT artwork and storys. 
 
