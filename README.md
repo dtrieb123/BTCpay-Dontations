@@ -22,7 +22,7 @@
 
 ##### Buy our NFTs 🖼️: [OpenSEA](https://opensea.io/Neuroshack) 
 
-##### Socials: [Hive](https://hive.blog/) | [Youtube](https://youtube.com/)
+##### Socials: [Hive](https://hive.blog/) | [DTube](https://dtube.com/) | [Youtube] (https://youtube.com/ |
 
 ##### Donations are always welcome:
 
@@ -36,7 +36,7 @@
 # TODO-List:
  - 1 Check indext.html /blog/, indext2.html /NFTs/, indext3.html /lore/
  - 2 Mint or share the next NFT on Polygon or share the video on Youtube/Dtube
- - 3 Mint or share the short audiobook on dtube or youtube
+ - 3 Mint or share the short audiobook on Dtube/Youtube
  
 <a> <img width ='100%'  height ='5px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> </a>
 
