@@ -16,13 +16,13 @@
 <a name="neuro"></a>
 #  What is NEUROSHACK?
 
-#### Hi welcome, we are still creating the site, please stop by again for more content. We are a team of artists and developers that create NFT artwork and storys. 
+#### Hi welcome, we are still creating the site, please stop by again for more content. We are a team of artists and developers that create NFT artwork and stories. 
 
 ##### Our Website: [NEUROSHACK.io](https://neuroshack.io)
 
 ##### Buy our NFTs 🖼️: [OpenSEA](https://opensea.io/Neuroshack) 
 
-##### Socials | [Reddit](https://www.reddit.com) | [Medium](https://medium.com/) | [Hashnode](https://hashnode.com/@PRIM4T/joinme) | [Gab](https://gab.com/) | [Twitter](https://twitter.com) | [Hive](https://hive.blog/) |
+##### Socials: [Hive](https://hive.blog/) | [Youtube](https://youtube.com/)
 
 ##### Donations are always welcome:
 
@@ -34,11 +34,10 @@
 <a > <img width ='100%'  height ='5px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> 
 <a name="todo"></a>
 # TODO-List:
- - 1
- - 2
- - 3
-
-
+ - 1 Check indext.html /blog/, indext2.html /NFTs/, indext3.html /lore/
+ - 2 Mint or share the next NFT on Polygon or share the video on Youtube/Dtube
+ - 3 Mint or share the short audiobook on dtube or youtube
+ 
 <a> <img width ='100%'  height ='5px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> </a>
 
 ### Thank you!
