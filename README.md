@@ -1,6 +1,6 @@
 <a > <img width ='100%'  height ='2px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> 
 
-[![SIGMA](https://raw.githubusercontent.com/dtrieb123/neuroshack/main/neuroshacklogo.gif)](https://neuroshack.io) 
+[![SIGMA](https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/neuroshack.gif)](https://neuroshack.io) 
 
 
 
