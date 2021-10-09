@@ -1,372 +1,389 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ns_blog</title>
-<meta name="viewport" content="initial-scale=1.0">
+<title> Neuroshack </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
 
 <style>
+
+ :root {
+  --bg: #201c2b;
+  --color1: #c099ff;
+  --color2: #2c2838;
+  --font1: 'monospace';
+  --font2: 'Verdana';
+}
+
+
+* {box-sizing: border-box;}
+
 body {
-        font-family: monospace;
-        font-weight: 400;
-        font-size: 11pt;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-bottom: 100px;
-        
+  background-color: var(--bg);
+  padding: 0%;
+  font-family: var(--font1);
+  color: var(--color1); 
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 304 304' width='304' height='304'%3E%3Cpath fill='%239C92AC' fill-opacity='0.1' d='M44.1 224a5 5 0 1 1 0 2H0v-2h44.1zm160 48a5 5 0 1 1 0 2H82v-2h122.1zm57.8-46a5 5 0 1 1 0-2H304v2h-42.1zm0 16a5 5 0 1 1 0-2H304v2h-42.1zm6.2-114a5 5 0 1 1 0 2h-86.2a5 5 0 1 1 0-2h86.2zm-256-48a5 5 0 1 1 0 2H0v-2h12.1zm185.8 34a5 5 0 1 1 0-2h86.2a5 5 0 1 1 0 2h-86.2zM258 12.1a5 5 0 1 1-2 0V0h2v12.1zm-64 208a5 5 0 1 1-2 0v-54.2a5 5 0 1 1 2 0v54.2zm48-198.2V80h62v2h-64V21.9a5 5 0 1 1 2 0zm16 16V64h46v2h-48V37.9a5 5 0 1 1 2 0zm-128 96V208h16v12.1a5 5 0 1 1-2 0V210h-16v-76.1a5 5 0 1 1 2 0zm-5.9-21.9a5 5 0 1 1 0 2H114v48H85.9a5 5 0 1 1 0-2H112v-48h12.1zm-6.2 130a5 5 0 1 1 0-2H176v-74.1a5 5 0 1 1 2 0V242h-60.1zm-16-64a5 5 0 1 1 0-2H114v48h10.1a5 5 0 1 1 0 2H112v-48h-10.1zM66 284.1a5 5 0 1 1-2 0V274H50v30h-2v-32h18v12.1zM236.1 176a5 5 0 1 1 0 2H226v94h48v32h-2v-30h-48v-98h12.1zm25.8-30a5 5 0 1 1 0-2H274v44.1a5 5 0 1 1-2 0V146h-10.1zm-64 96a5 5 0 1 1 0-2H208v-80h16v-14h-42.1a5 5 0 1 1 0-2H226v18h-16v80h-12.1zm86.2-210a5 5 0 1 1 0 2H272V0h2v32h10.1zM98 101.9V146H53.9a5 5 0 1 1 0-2H96v-42.1a5 5 0 1 1 2 0zM53.9 34a5 5 0 1 1 0-2H80V0h2v34H53.9zm60.1 3.9V66H82v64H69.9a5 5 0 1 1 0-2H80V64h32V37.9a5 5 0 1 1 2 0zM101.9 82a5 5 0 1 1 0-2H128V37.9a5 5 0 1 1 2 0V82h-28.1zm16-64a5 5 0 1 1 0-2H146v44.1a5 5 0 1 1-2 0V18h-26.1zm102.2 270a5 5 0 1 1 0 2H98v14h-2v-16h124.1zM242 149.9V160h16v34h-16v62h48v48h-2v-46h-48v-66h16v-30h-16v-12.1a5 5 0 1 1 2 0zM53.9 18a5 5 0 1 1 0-2H64V2H48V0h18v18H53.9zm112 32a5 5 0 1 1 0-2H192V0h50v2h-48v48h-28.1zm-48-48a5 5 0 0 1-9.8-2h2.07a3 3 0 1 0 5.66 0H178v34h-18V21.9a5 5 0 1 1 2 0V32h14V2h-58.1zm0 96a5 5 0 1 1 0-2H137l32-32h39V21.9a5 5 0 1 1 2 0V66h-40.17l-32 32H117.9zm28.1 90.1a5 5 0 1 1-2 0v-76.51L175.59 80H224V21.9a5 5 0 1 1 2 0V82h-49.59L146 112.41v75.69zm16 32a5 5 0 1 1-2 0v-99.51L184.59 96H300.1a5 5 0 0 1 3.9-3.9v2.07a3 3 0 0 0 0 5.66v2.07a5 5 0 0 1-3.9-3.9H185.41L162 121.41v98.69zm-144-64a5 5 0 1 1-2 0v-3.51l48-48V48h32V0h2v50H66v55.41l-48 48v2.69zM50 53.9v43.51l-48 48V208h26.1a5 5 0 1 1 0 2H0v-65.41l48-48V53.9a5 5 0 1 1 2 0zm-16 16V89.41l-34 34v-2.82l32-32V69.9a5 5 0 1 1 2 0zM12.1 32a5 5 0 1 1 0 2H9.41L0 43.41V40.6L8.59 32h3.51zm265.8 18a5 5 0 1 1 0-2h18.69l7.41-7.41v2.82L297.41 50H277.9zm-16 160a5 5 0 1 1 0-2H288v-71.41l16-16v2.82l-14 14V210h-28.1zm-208 32a5 5 0 1 1 0-2H64v-22.59L40.59 194H21.9a5 5 0 1 1 0-2H41.41L66 216.59V242H53.9zm150.2 14a5 5 0 1 1 0 2H96v-56.6L56.6 162H37.9a5 5 0 1 1 0-2h19.5L98 200.6V256h106.1zm-150.2 2a5 5 0 1 1 0-2H80v-46.59L48.59 178H21.9a5 5 0 1 1 0-2H49.41L82 208.59V258H53.9zM34 39.8v1.61L9.41 66H0v-2h8.59L32 40.59V0h2v39.8zM2 300.1a5 5 0 0 1 3.9 3.9H3.83A3 3 0 0 0 0 302.17V256h18v48h-2v-46H2v42.1zM34 241v63h-2v-62H0v-2h34v1zM17 18H0v-2h16V0h2v18h-1zm273-2h14v2h-16V0h2v16zm-32 273v15h-2v-14h-14v14h-2v-16h18v1zM0 92.1A5.02 5.02 0 0 1 6 97a5 5 0 0 1-6 4.9v-2.07a3 3 0 1 0 0-5.66V92.1zM80 272h2v32h-2v-32zm37.9 32h-2.07a3 3 0 0 0-5.66 0h-2.07a5 5 0 0 1 9.8 0zM5.9 0A5.02 5.02 0 0 1 0 5.9V3.83A3 3 0 0 0 3.83 0H5.9zm294.2 0h2.07A3 3 0 0 0 304 3.83V5.9a5 5 0 0 1-3.9-5.9zm3.9 300.1v2.07a3 3 0 0 0-1.83 1.83h-2.07a5 5 0 0 1 3.9-3.9zM97 100a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-48 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 96a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-144a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM49 36a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM33 68a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 240a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm80-176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm112 176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 180a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 84a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'%3E%3C/path%3E%3C/svg%3E");
+
 }
 
-#container {
+/* Center website */
+.main {
+        border: 5px solid var(--color2); 
+        border-radius: 20px;
+        padding-left: 4%;
+        padding-right: 4%;
+        background: var(--bg);
         margin: auto;
-        max-width: 40em;
+        margin-top: 20px;
+        max-width: 45em;
+
 }
 
-h1 {
-        font-size: 200%;
-}
+h1 {line-height: 0.9; font-size: 45px;}
 
-h2 {
-        font-size: 167%;
-}
+h2 {line-height: 0.9; font-size: 25px;}
 
-h3 {
-        font-size: 75%;
-        font-weight: normal;
-}
+h3 {font-size: 15px;}
+a {text-decoration: none; font-weight: 600;}
 
+p {font-family: var(--font1); font-size: 14px;}
 
-a {
-        text-decoration: none;
-        font-weight: 600;
-}
+hr {border-radius: 2px; height: 0px; border: 1px solid var(--color2); width: 75%;}
 
-p, ul {font-size: 90%;
-        margin-left: 1.5em;
-}
+.row {margin: 0px 0px;}
 
-p.lede {
-        font-size: 120%;
-        margin-left: 1.25em;
-}
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {padding: 5px;}
 
-ul {
-        list-style: none;
-        margin-left: 0;
-        padding-left: 3em;
-}
-ul li {
-        margin-top: 5pt;
-        margin-bottom: 5pt;
-}
-ul li::before {
-        content: "•";
-        color: #c08e8e;
-        font-weight: bold;
-        display: inline-block;
-        width: 1.1em;
-        margin-left: -1.1em;
-}
+/* Create four equal columns that floats next to each other */
+.column {float: left; width: 20%;}
 
-blockquote {
-        margin-left: 2.25em;
-        font-style: italic;
-        font-weight: 300;
-        padding-left: 0.75em;
-        border-left: 1px solid #597f7d;
-}
+/* Clear floats after rows */ 
+.row:after {content: ""; display: table; clear: both; padding: 25px;}
 
-.Row {
-    display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px; /*Optional*/
-}
-.Column {
-    display: table-cell;
-   
-}
+/* Content */
 
-pre {
-        font-family: 'Fira Mono', monospace;
-        font-size: 75%;
-        margin-left: 2em;
-	max-width: 100%;
-	overflow: auto;
-}
+.content {padding: 10px; border: 2px solid var(--bg);}
 
-img {
-        max-width: 100%;
-}
+.content:hover {border: 2px solid var(--bg); padding: 10px;}
 
-footer {
-   position: fixed;
-   width: 100%;
-   bottom: 0%;
-   left: 50%;
-   transform: translate(-50%, 0);
-   padding-left: 1%;
-   padding-right: 1%;
-   padding-bottom: 1%;
-   background-color: rgba(24, 23, 20, 0.80); 
-}
+.contentdashed {border: 2px dashed; padding: 10px; height: 100px;}
+
 
 
 .button1 {
-  margin-top: 5%;
-  margin-bottom: 5%;
+font-weight: bold;
+font-family: var(--font1); 
+border-radius: 2px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   display: inline-block;
   cursor: pointer;
   padding: 16px 32px;
-  font-size: 220%;
-  background-color: #c08e8e; 
-  color: #181714; 
-  border: 2px solid #c08e8e;
-}
+  font-size: 150%;
+  background-color: var(--bg); 
+  color: var(--color1); 
+  border: 5px solid var(--color1); 
+ 
+} 
 
-.button1:hover {
-  background-color: #181714;
-  color: #c08e8e;
-}
+.active, .button1:hover {background-color: var(--color1); color: var(--bg);}
 
 .button2 {
-  display: inline-block;
+font-weight: bold;
+font-family: var(--font1); 
+border-radius: 2px;
+  margin-top: 0%;
+  margin-bottom: 0px;
+  display: block;
   cursor: pointer;
-  padding: 4px 8px;
-  font-size: 11px;
-  background-color: #181714; 
-  color: #754f4f; 
-  border: 2px solid #754f4f;
+  padding: 5px 5px;
+  font-size: 14px;
+  background-color: var(--bg); 
+  color: var(--color1); 
+  border: 2px solid var(--color1); 
+ 
+} 
+
+.active, .button2:hover {
+  background-color: var(--color1);
+  color: var(--bg); 
+ 
 }
 
-.button2:hover {
-  background-color: #754f4f;
-  color: #181714;
+.row2 {
+  margin: 0px 0px;
 }
 
-/* Colors */
-
-body { background: #181714; color: #c08e8e; }
-p.lede { color: #c08e8e; }
-blockquote { color: #c08e8e; }
-pre { color: #c08e8e; }
-h1 { color: #c08e8e; }
-h2 { color: #c08e8e; }
-h3 { color: #754f4f; }
-
-/* Responsivity */
-
-@media only screen and (max-width: 499px) and (orientation: portrait) {
-        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
-        padding-left: 0; padding-right: 0; }  
-        
-         div.ascii {
-          font-size: 9px;
-         } 
-}
-@media only screen and (orientation: landscape) and (max-width: 850px) {
-        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
-        padding-left: 0; padding-right: 0; }
+/* Add padding BETWEEN each column */
+.row2,
+.row2 > .column2 {
+  padding: 5px;
 }
 
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: center;
+  width: 50%;
+
+  
+}
+
+/* Clear floats after rows */ 
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 5px;
+}
+
+/* Content */
+
+.content2 {
+  width: 50%;
+  padding: 1px;
+border: 2px solid var(--bg); 
+}
+
+.content2:hover {
+border: 2px solid var(--bg); 
+
+}
+
+
+.row3 {
+  margin: 0px 0px;
+min-height: 200px;
+}
+
+/* Add padding BETWEEN each column */
+.row3,
+.row3 > .column3 {
+  padding: 5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column3 {
+  float: centre;
+  width: 50%;
+
+  
+}
+
+/* Clear floats after rows */ 
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0px;
+}
+
+/* Content */
+
+.content3 {
+
+  padding: 10px;
+border: 2px solid var(--bg); 
+}
+
+.content3:hover {
+border: 2px solid var(--bg); 
+  padding: 10px;
+}
+
+
+
+.row4 {
+  margin: 0px 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Add padding BETWEEN each column */
+.row4,
+.row4 > .column4 {
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column4 {
+  float: left;
+  width: 33%;
+
+  
+}
+
+/* Clear floats after rows */ 
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 25px;
+}
+
+/* Content */
+
+.content4 {
+
+  padding: 10px;
+
+}
+
+
+
+
+
+
+.fa {
+
+  font-size: 200%;
+  color: var(--color1); 
+
+} 
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+
+  .column {width: 25%;}
+  .column2 {width: 100%;}
+  .column3 {width: 100%;}
+  .image {width: 50%;}
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .main {padding-left: 5%; padding-right: 5%;}
+  .column {width: 33%;}
+  .column2 {width: 100%;}
+  .column3 {width: 100%;}
+  .button1 {display: block;}
+  p {font-size: 12px;}
+  .fa {font-size: 150%;}
+  .image {width: 75%;}
+
+}
+
+
+ 
 </style>
-</head>
+
 <body>
-<div id="container">
+
+<!-- MAIN (Center website) -->
+<div class="main">
 
 <center>
 
-<div class="ascii">
-</br>
-<pre id=pre  style="font-size: 100%">
-_  _ ____ _  _ ____ ____ ____ _  _ ____ ____ _  _  _ ____ 
-|\ | |___ |  | |__/ |  | [__  |__| |__| |    |_/   | |  | 
-| \| |___ |__| |  \ |__| ___] |  | |  | |___ | \_ .| |__| 
-</pre>
+
+<div>
+
+<h1>
+<b>Neuroshack NFT #1</b>
+</h1>
+
+<hr></hr>
+
+<div class="row3">
+<div class="column3" >
+<div class="content3">
+<img style="border-radius: 20px;" style="border-radius: 50px; padding-top: 50px; margin-top: -50px" class="image" href="https://opensea.io/Neuroshack" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif" alt="PNG" width="100%">
 </div>
-
-
-<img src="" title="Image">
-
-<h5>Blog</h1> 
-
-</center>
+</div>
+<div class="column3" >
+<div class="content3">
 
 <p>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>Opensea NFT Minting</i>
-	</font>
-<div>
-We launched our first NFT exclusively on the opensea platform. 
-We went with opensea because they were the first at the time that supported .mp4 files.</div>
-</div>
-
-</br>
-
+We launched our first NFT exclusively on the <b>opensea platform</b>. We went with opensea because they were the first at the time that supported .mp4 files.
+</p>
 <div align="center">
-<img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif" alt="funny animation GIF" width="320px"> 
+<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536347509106671617/" class="button button1">Buy on OpenSea</a>
 </div>
+
+</div>
+</div>
+</div>
+
+
+
+
+<p>
+<b>Credits</b>
+</p>
+
+<div class="row2">
+
+
+
+<div class="column2">
+<div class="content2">
 <div align="center">
-<a href="https://opensea.io/Neuroshack" class="button button1">Get this NFT!</a>
+<a href="https://opensea.io/Neuroshack" class="button button2">Artist</a>
 </div>
-<div align="right">
-<p class="lede">
-<font size="2">090121</font><font size="2">/</font><a href="https://codepen.io/dt_zero"><font size="2" color="grey">dt</font></a>
 </div>
-</p>
-<p>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>The Next Step</i>
-	</font>
-<br>
-We also thought of developing a NFT RNG P2E text-based game called <i>ceptrs</i>. If it launched, it will be html5 based with 2D/3D animated scenes using <a href="https://krita.org"><font color="grey"><i>krita</font></a></i> / <a href="https://www.blender.org/"><font color="grey"><i>blender</i></font></a>.
-This was project was inspired by <i>tamiya mini-4WD cars</i> customization, the new <i><a href="zed.run"><font color="grey">zed.run</font></a></i> project, and an old web-text-based game.
-</br>
-	<br>
-	We have developed a 'Ceptr' 3D Hanger, 2D ships (including interior design), 2D concept characters, and a 3D market being slowly developed. Although due to lack of funding; this is a dead ptroject.
-	</br>
-<div align="right">
-<p class="lede">
-<font size="2">082921</font><font size="2">/</font><a href="https://codepen.io/dt_zero"><font size="2" color="grey">dt</font></a>
 </div>
-</p>
-<p>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>Project Intro.</i>
-	</font>
-<br>
-Hi welcome, we are still creating the site, please stop by again for more content. We are a team of artists and developers that create NFT artwork and storys.
-</br>
-<div align="right">
-<p class="lede">
-<font size="2">083121</font><font size="2">/</font><a href="https://codepen.io/dt_zero"><font size="2" color="grey">dt</font></a>
+
+<div class="column2">
+<div class="content2">
+<div align="center">
+<a href="https://opensea.io/Neuroshack" class="button button2">Compusition</a>
 </div>
-</p>
+</div>
+</div>
+
+<div class="column2">
+<div class="content2">
+<div align="center">
+<a href="https://opensea.io/Neuroshack" class="button button2">3d-Artist</a>
+</div>
+</div>
+</div>
+
+<div class="column2">
+<div class="content2">
+<div align="center">
+<a href="https://opensea.io/Neuroshack" class="button button2">Editing</a>
+</div>
+</div>
+</div>
+
+</div>
 
 
-<p></p>
-<center>
-<h5>The Funds go to...</h5>
+
+
+
+
+
+
+
+
+<div>
+
+
+
 </center>
-<p></p>
-<font size="3"><i>We accept donations <a href="direct_btcserverpage.html"><font color="grey">btc</font></a> / <a href="grin_page.html"><font color="grey">grin</font></a>. Thanks for all the support!</i>
-<!-- 
-maybe have a CSS drop down when you hover over grin, 
-and a 300x300px transparent window hovers over to the right,
-if the cursor is on that window, it allows the user to paste information and hit submit.
-this doesn't damage the architecture
-"
-To send a donation, paste your slate into the text-box and hit submit.
-<script>
-</script>
-"
--->
-<ul>
-<li>PRIM4T <i>backend-dev/artist // <a href="https://www.prim4t.art"><font color="grey">PRIM4T.art</font></a></i></li>
-<li>dt <i>technical artist // <a href="https://www.codepen.io/dt_zero"><font color="grey">codepen.io/dt_zero</font></a></li>
-</ul>
-</i>
-</font>
-<p></p>
+<!-- END GRID -->
+</div>
+
+
 
 <center>
-<!-- 
-#
-#
-maybe make these smaller? 
--->
 
+<p> © Neuroshack.io  <script>document.write( new Date().getFullYear() );</script> </p>
+<img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slowFAVI.gif" alt="GIF" width="50px">
 
-<h5>Donations</h5>
-
-
-
-<div class="Row">
-   
-    <div class="Column"><div>
-        <h5 align="center" >Donate BTC</h5>
-        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png">
-    </div>
-
-    <div  style="padding-top: 5px;" align="center">
-        <button class="button button2" onclick="Copy()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text" value="bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn">
-    </div>
-
-    </div>
-
-    <div class="Column"><div>
-        <h5 align="center">Donate ETH</h5>
-        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/ETH.png">
-    </div>
-
-    <div  style="padding-top: 5px; content: space-around;" align="center">
-        <button class="button button2" onclick="Copy2()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text2" value="0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB">
-    </div>
-      
-    </div>
-
-    <div class="Column"><div>
-        <h5 align="center" >Donate GRIN</h5>
-        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/grin.png">
-    </div>
-
-    <div style="padding-top: 5px;" align="center">
-        <button class="button button2" onclick="Copy3()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text3" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
-    </div>
-      <h5>Coming soon</h5> 
-    </div>
-
-</div>
-
-
-
-<!-- -->
-<!-- -->
 </center>
 
-<p></p>
+<!-- END MAIN -->
 </div>
 
 </body>
-
-<footer>
-<center>
-<h3>© NeuroShack.io <script>document.write( new Date().getFullYear() );</script> 
-</h3>
-
-<a href="./" class="button button2">Home</a>
-
-<a href="mailto:d.trieb@mailfence.com" class="button button2">Contact</a>
-
-</center>
-</footer>
-<script>
-var copy_text_val = document.querySelector('.copy_text');
-
-function Copy() {
-  copy_text_val.select();
-  document.execCommand("copy");
-  console.log(copy_text_val.value);
-} 
-
-var copy_text_val2 = document.querySelector('.copy_text2');
-
-function Copy2() {
-  copy_text_val2.select();
-  document.execCommand("copy");
-  console.log(copy_text_val.value);
-} 
-
-var copy_text_val3 = document.querySelector('.copy_text3');
-
-function Copy3() {
-  copy_text_val3.select();
-  document.execCommand("copy");
-  console.log(copy_text_val.value);
-} 
-</script>
 </html>
