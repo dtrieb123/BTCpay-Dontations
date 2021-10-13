@@ -4,7 +4,7 @@
 <title> Neuroshack </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/png" href="media/slowFAVI.gif">
+
 
 </head>
 
@@ -19,7 +19,16 @@
   --font2: 'Verdana';
 }
 
-
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+    display: table-cell;
+   
+}
 * {box-sizing: border-box;}
 
 body {
@@ -35,25 +44,27 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .main {
         border: 5px solid var(--color2); 
         border-radius: 20px;
-        padding-left: 4%;
-        padding-right: 4%;
+        padding-left:50px;
+        padding-right: 50px;
         background: var(--bg);
         margin: auto;
         margin-top: 20px;
         max-width: 45em;
-
+        font-size: 15px;
 }
 
-h1 {line-height: 0.9; font-size: 45px;}
+h1 {color: whitesmoke; text-shadow: 3px 2px black; line-height: 0.9; font-size: 45px;}
 
-h2 {line-height: 0.9; font-size: 25px;}
+h2 {text-shadow: 3px 2px black; line-height: 0.9; font-size: 25px;}
 
 h3 {font-size: 15px;}
-a {text-decoration: none; font-weight: 600;}
-
-p {font-family: var(--font1); font-size: 14px;}
+a {color: var(--color1); text-decoration: none; font-weight: 600;}
+i {color: var(--color1); text-decoration: none; font-weight: 600;}
+p {color: grey; font-family: var(--font2); font-size: 12px;}
 
 hr {border-radius: 2px; height: 0px; border: 1px solid var(--color2); width: 75%;}
+
+img {border-radius: 20px; margin-top: 5%;}
 
 .row {margin: 0px 0px;}
 
@@ -103,13 +114,14 @@ border-radius: 2px;
   margin-bottom: 5px;
   display: block;
   cursor: pointer;
-  padding: 5px 20px;
-  font-size: 14px;
+  padding: 5px 10px;
+  font-size: 12px;
   background-color: var(--bg); 
   color: var(--color1); 
   border: 2px solid var(--color1); 
  
 } 
+
 
 .active, .button2:hover {
   background-color: var(--color1);
@@ -238,10 +250,6 @@ border: 2px solid var(--bg);
 }
 
 
-
-
-
-
 .fa {
 
   font-size: 200%;
@@ -284,221 +292,227 @@ border: 2px solid var(--bg);
 
 <center>
 
-
-<div>
-
-<img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slow.gif" alt="GIF" width="100%">
-
-<img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slowdivider.gif" alt="GIF" width="75%">
-
-
-
-</div>
-
-
-<h3>
-Create, publish and profit - together on the blockchain!
-</h3>
-
-<hr></hr>
-
-<div class="row3">
-<div class="column3" >
-<div class="content3">
-<img style="padding-top: 50px" class="image" href="https://opensea.io/Neuroshack" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/banner.jpg" alt="PNG" width="100%">
-</div>
-</div>
-<div class="column3" >
-<div class="content3">
-<h3>
-1.<b>Collaborate</b> and <b>create!</b>
-</h3>
-<p>
-We will <b>setup</b> the <b>NFT-Contract</b> for your Project.
-All participants will be coded into the smart contract.
-</p>
-<div align="center">
-<a href="https://www.reddit.com/r/Neuroshack/" class="button button2">Reddit</a>
-</div>
-<div align="center">
-<a href="https://discord.gg/9EBrmvDRTS" class="button button2">Discord</a>
-</div>
-</div>
-</div>
-</div>
-
-<hr></hr>
-
-<div class="row3">
-<div class="column3" >
-<div class="content3">
-<img style="padding-top: 50px" class="image" href="https://opensea.io/Neuroshack" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/banner2.jpg" alt="PNG" width="100%">
-</div>
-</div>
-<div class="column3" >
-<div class="content3">
-<h3> 
-2.<b>Commit</b> your work!
-</h3>
-<p>
-We will <b>setup</b> the <b>NFT-Contract</b> for your Project.
-All participants will be coded into the smart contract.
-</p>
-<div align="center">
-<a href="mailto:d.trieb@mailfence.com" class="button button2">E-Mail</a>
-</div>
-<div align="center">
-<a href="https://discord.gg/9EBrmvDRTS" class="button button2">Discord</a>
-</div>
-</div>
-</div>
-</div>
-
-<hr></hr>
-
-<div class="row3">
-<div class="column3" >
-<div class="content3">
-<img style="padding-top: 50px" class="image" href="https://opensea.io/Neuroshack" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/banner3.jpg" alt="PNG" width="100%">
-</div>
-</div>
-<div class="column3" >
-<div class="content3">
-<h3> 
-3.Your work gets <b>Published</b>!
-</h3>
-<p>
-The <b>Release</b> of <b>your Project</b> will be pushed to all the <b>relevant and major networks!</b>
-</p>
-<div align="center">
-<a href="./releases/neuroshack1" class="button button2">Demo</a>
-</div>
-</div>
-</div>
-</div>
-
-<hr></hr>
-
-<div class="row3">
-<div class="column3" >
-<div class="content3">
-<img style="padding-top: 50px" class="image" href="https://opensea.io/Neuroshack" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/banner4.jpg" alt="PNG" width="100%">
-</div>
-</div>
-<div class="column3" >
-<div class="content3">
-<h3> 
-4.<b>Profit!</b>
-</h3>
-<p>
-The <b>Royalties</b> from all the sales will be split between <b>all contributors.</b>
-</p>
-<div align="center">
-<a href="https://opensea.io/collection/neuroshack-collection" class="button button2">OpenSea</a>
-</div>
-</div>
-</div>
-</div>
-
-<hr></hr>
-
-
-
-<div class="row4">
-
-<h3><b>Publish</b> your work on all major networks!</h3>
-
-<div class="column4">
-<div class="content4">
-<div><i class="fa fa-facebook"></i></div>
-</div>
-</div>
-
-<div class="column4" >
-<div class="content4">
-<div><i class="fa fa-twitter"></i></div>
-</div>
-</div>
-
-<div class="column4" >
-<div class="content4">
-<div><i class="fa fa-reddit"></i></div>
-</div>
-</div>
-
-<div class="column4" >
-<div class="content4">
-<div><i class="fa fa-youtube"></i></div>
-</div>
-</div>
-
-<div class="column4" >
-<div class="content4">
-<div><i class="fa fa-medium"></i></div>
-</div>
-</div>
-
-<div class="column4" >
-<div class="content4">
-<div><i class="fa fa-google"></i></div>
-</div>
-</div>
-
-<div class="column4" >
-<div class="content4">
-<div><i class="fa fa-pinterest"></i></div>
-</div>
-</div>
-
-<div class="column4" >
-<div class="content4">
-<div><i class="fa fa-spotify"></i></div>
-</div>
-</div>
-
-<div class="column4" >
-<div class="content4">
-<div><i class="fa fa-rss"></i></div>
-</div>
-</div>
-
-<div class="column4" >
-<div class="content4">
-<div><i class="fa fa-soundcloud"></i></div>
-</div>
-</div>
-  
-  
-</div>
-
-
-
-
-
-
-
-
-
-
-<div>
-
-
-
-</center>
-<!-- END GRID -->
-</div>
-
-
+<div id="container">
 
 <center>
 
-<p> © Neuroshack.io  <script>document.write( new Date().getFullYear() );</script> </p>
-<img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slowFAVI.gif" alt="GIF" width="50px">
 
+<div>
+
+<img style="margin-top: 0%;" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slow.gif" alt="GIF" width="100%">
+
+<img style="margin-top: 0%;" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slowdivider.gif" alt="GIF" width="75%">
+
+
+
+</div>
+
+
+<!-- help blue link-text -->
+<nav>
+<h5><a href="blog.0x">blog</a> / <a href="nft.0x">nfts</a> / <a href="lore.0x">lore</a></h5> 
+</nav>
+<!-- -->
 </center>
 
-<!-- END MAIN -->
+<center>
+<div>
+		<i><h1>Blog</h1></i>
+</div>
+
+<div align="right">
+<p class="lede">
+101221/dt</p>
+</div>
+<hr></hr>
+</center>
+
+<div align="left">
+	<i><h2>Releasing The Swamp Chronicals Part 1</h2></i>
+<div align="left">
+This scfi/horror story was developed last year and was intended to be an animation for a film festival.
+Due to a small budget we only did one part of the story as an audiobook, hope you enjoy it.
+<div align="center"><img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/swampN.png" width="320px"></div> 
+<div align="left">
+We also want to release 2 OSTs shortly after as NFTs. Check back for updates.
+</div>
+<div align="center">
+<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536349708129927169/" class="button button1">Get this NFT!</a>
+</div>
+
+
+<div align="right">
+<p class="lede">
+091421/dt</p>
+</div>
+<hr></hr>
+
+<div align="left">
+	<i><h2>SCHREI ft. Helios & Valintina</h2></i>
+</div>
+<div align="left">
+NS crew is releasing an old NFT developed last year but never released. Artists: Helios, Valintina,  ranker 
+It was a bigger team to help develop this project, thanks to all those involved!
+</div>
+<div align="center"><img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/SCHREI.jpg" width="320px" ></div> 
+
+<div align="center">
+<a href="https://opensea.io/Neuroshack" class="button button1">Get this NFT!</a>
+</div>
+
+
+<div align="right">
+<p class="lede">
+091321/dt</p>
+</div>
+<hr></hr>
+<div align="left">
+	<i><h2>Neuroshack's NFT on Polygon</h2></i>
+</div>
+<div align="left">
+Our first minted NFT just launched using Polygon, view on <a href="https://www.Opensea.io/neuroshack">opensea
+</div>
+<div align="center">
+<img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slowN.gif" alt="GIF" width="320px"> 
+</div>
+<div align="center">
+<a href="https://opensea.io/Neuroshack" class="button button1">Get this NFT!</a>
+</div>
+
+<div align="right">
+<p class="lede">
+090711/dt</p>
+</div>
+<hr></hr>
+</center>
+
+<div align="left">
+	<i><h2>The Next Step</h2></i>
+<div align="left">
+It's been a year since the project team started, The NS crew started a year ago in October and had plans to turn the shortstory into an animation.
+</br>
+	<br>
+	We have developed a 3D hanger, 2D ship designs (including interior design), 2D concept characters, and the market concept. We're slowly working on this project and always accepting new colaberators.
+	</br>
+<br>
+Due to lack of funding, we are now focusing our development on NFT creation and webdesign. 
+</div>
+
+<div align="right">
+<p class="lede">
+090221/dt</p>
+</div>
+<hr></hr>
+</center>
+
+<div align="left">
+	<i><h2>Project Intro.</h2></i>
+</div>
+<div align="left">
+Hi welcome, we are still creating the site, please stop by again for more content. We are a team of artists and developers that create NFT artwork and storys. 
+</div>
+
+<div align="right">
+<p class="lede">
+083021/dt</p>
+</div>
+<hr></hr>
+</center>
+
+<div align="left">
+	<i><h2>The Funds go to...</h2></i>
+<div align="left">
+	<i>
+We accept donations 
+	<font color="grey">btc</font> / <font color="grey">grin</font>. 
+Thanks for all the support!
+	</i>
+<!-- FUNDS-go2_end -->
+<!-- -->
+<!-- CONTACT_start -->
+<ul>
+<li>PRIM4T <i>backend-dev/artist // <a href="https://www.prim4t.art"><font color="grey">PRIM4T.art</font></a></i></li>
+<li>dt <i>technical artist</i> // <font color="grey">dt</font></li>
+</ul>
+</i>
+</font>
+</div>
+
+<hr></hr>
+
+<h5>Donations</h5>
+<div class="Row">
+   
+    <div class="Column"><div>
+        <h5 align="center" >Donate BTC</h5>
+        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png">
+    </div>
+
+    <div  style="padding-top: 5px;" align="center">
+        <button class="button button2" onclick="Copy()">Copy</button>
+        <input type="text" STYLE="color: var(--color1); padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid var(--color1); background-color: var(--bg);" size="10"             maxlength="30" class="copy_text" value="bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn">
+    </div>
+
+    </div>
+
+    <div class="Column"><div>
+        <h5 align="center">Donate ETH</h5>
+        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/ETH.png">
+    </div>
+
+    <div  style="padding-top: 5px; content: space-around;" align="center">
+        <button class="button button2" onclick="Copy2()">Copy</button>
+        <input type="text" STYLE="color: var(--color1); padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid var(--color1); background-color: var(--bg);" size="10"              maxlength="30" class="copy_text2" value="0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB">
+    </div>
+      
+    </div>
+
+    <div class="Column"><div>
+        <h5 align="center" >Donate GRIN</h5>
+        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/grin.png">
+    </div>
+
+    <div style="padding-top: 5px;" align="center">
+        <button class="button button2" onclick="Copy3()">Copy</button>
+        <input type="text" STYLE="color: var(--color1); padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid var(--color1); background-color: var(--bg);" size="10"              maxlength="30" class="copy_text3" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+    </div>
+      <h5>Coming soon</h5> 
+    </div>
+</div>
+<!-- DONATIONS_end-->
+<!-- -->
+<!-- -->
+</center>
+
+<p></p>
 </div>
 
 </body>
+
+<script>
+var copy_text_val = document.querySelector('.copy_text');
+
+function Copy() {
+  copy_text_val.select();
+  document.execCommand("copy");
+  console.log(copy_text_val.value);
+} 
+
+var copy_text_val2 = document.querySelector('.copy_text2');
+
+function Copy2() {
+  copy_text_val2.select();
+  document.execCommand("copy2");
+  console.log(copy_text_val.value);
+} 
+
+var copy_text_val3 = document.querySelector('.copy_text3');
+
+function Copy3() {
+  copy_text_val3.select();
+  document.execCommand("copy3");
+  console.log(copy_text_val.value);
+} 
+</script>
+
 </html>
