@@ -20,46 +20,16 @@
   ],
   "net": [
     {
-      "title": "Twitter",
-      "action": "https://twitter.com/xedraism",
-      "img": "https://zplit.online/img/twitter.png",
-      "desc": "@xedraism (new account)"
+      "title": "Soundcloud",
+      "action": "https://soundcloud.com/neuroshack",
+      "img": "https://cdn-icons.flaticon.com/png/512/2504/premium/2504939.png?token=exp=1644165644~hmac=803714f8166b8c1bb913a89d837b0ddb",
+      "desc": "Listen on Soundclound"
     },
     {
-      "title": "Zora",
-      "action": "https://zora.co/zplit",
-      "img": "https://zplit.online/img/zora.jpg",
-      "desc": "Track 1/1s"
-    },
-    {
-      "title": "KnownOrigin",
-      "action": "https://knownorigin.io/zplit",
-      "img": "https://zplit.online/img/ko.jpg",
-      "desc": "Audio-visual 1/1s"
-    },
-    {
-      "title": "Bandcamp",
-      "action": "https://zplit.bandcamp.com/music",
-      "img": "https://zplit.online/img/bandcamp.png",
-      "desc": "Audio repository / Discography"
-    },
-    {
-      "title": "Spotify",
-      "action": "https://open.spotify.com/artist/3GlGoOquVpKOFZTZfEwJRD",
-      "img": "https://zplit.online/img/spotify.png",
-      "desc": "Self-published releases"
-    },
-    {
-      "title": "Zplit Digital Disc's",
-      "action": "https://looksrare.org/collections/0x1AF8551B88601Cc879E505B4F7655FE855A3B680",
-      "img": "https://zplit.online/img/nft.png",
-      "desc": "NFT Contract #0"
-    },
-    {
-      "title": "Zplit Tokenized Music",
-      "action": "https://looksrare.org/collections/0x65B9344d3d81F2C00Da30e303F8eC40110857495",
-      "img": "https://zplit.online/img/nft.png",
-      "desc": "NFT Contract #1"
+      "title": "Youtube",
+      "action": "https://www.youtube.com/channel/UCYeit9O39VYjYRxVlIStKQw",
+      "img": "https://cdn-icons-png.flaticon.com/512/174/174883.png",
+      "desc": "Watch on YT"
     }
   ],
   "bio": " \n\n Neuroshack is a creative project, focused on audio and visual storytelling \n\n \n Neuroshack started to distribute their work in NFT format, participating in the cryptoart movement since August 2021. \n\n \n main NFT collections created: \n https://opensea.io/Neuroshack \n BTC: bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn  \n ETH: 0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB "
