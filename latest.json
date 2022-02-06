@@ -3,19 +3,19 @@
     
     {
         "title": "SCHREI by Helios and Valentina - Neuroshack - NFT Music",
-        "action": "https://zplit.online/interface",
+        "action": "https://opensea.io/Neuroshack",
         "tag": "📀 Music NFT",
         "desc": "This was our first experimental track for the chronical series. Valintina gave a 'liquid' style intro. and intense vocals from Helios over experimental neurofunk sounds. This was Helios' first track with the NS crew. ",
         "img":"https://lh3.googleusercontent.com/mnxQdkVPKYmlCJpzzFGbCZl0pxBbScewJuR2DC2KEHN4jnzaH1lwStJp_irIbNESTUguWinpPd26sDY3ty1HOoZ3ruVhJiUwm6sCcA=w600",
         "file":"https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536348608618299393"
     },
     {
-      "title": "weg der sonne",
-      "action": "https://rarible.com/token/0x6a5ff3ceecae9ceb96e6ac6c76b82af8b39f0eb3:1210",
+      "title": "The Swamp Chronicals Part 1",
+      "action": "https://opensea.io/Neuroshack",
       "tag": "💿 Genesis NFT",
-      "desc": "First release of 2020 and first music NFT created on Rarible",
-      "img": "https://ipfs.daonomic.com/ipfs/QmNeaR6nPEjhJdo8VwqD43Y5KeRy4B6WPDTtSVqj4ysX8m",
-      "file":"https://zplit.bandcamp.com/track/weg-der-sonne"
+      "desc": "This scfi/horror story was developed last year and was intended to be an animation for a film festival. Due to a small budget we only did one part of the story as an audiobook, hope you enjoy it. ",
+      "img": "https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/swampN.png",
+      "file":"https://opensea.io/Neuroshack"
     }
   ],
   "net": [
