@@ -1,3 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>	
+<title>ns_blog</title>
+<meta name="viewport" content="initial-scale=1.0">
+
+<style>
+body {
+        font-family: monospace;
+        font-weight: 400;
+        font-size: 11pt;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 100px;
+        
+}
+
+#container {
+        margin: auto;
+        max-width: 40em;
+}
+
+h1 {
+        font-size: 200%;
+}
+
+h2 {
+        font-size: 167%;
+}
+
+h3 {
+        font-size: 75%;
+        font-weight: normal;
+}
+
+
+a {
+        text-decoration: none;
+        font-weight: 600;
+}
+
+p, ul {font-size: 90%;
+        margin-left: 1.5em;
+}
+
+p.lede {
+        font-size: 120%;
+        margin-left: 1.25em;
+}
+
+ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 3em;
+}
+ul li {
+        margin-top: 5pt;
+        margin-bottom: 5pt;
+}
+ul li::before {
+        content: "•";
+        color: #c08e8e;
+        font-weight: bold;
+        display: inline-block;
+        width: 1.1em;
+        margin-left: -1.1em;
+}
+
+blockquote {
+        margin-left: 2.25em;
+        font-style: italic;
+        font-weight: 300;
+        padding-left: 0.75em;
+        border-left: 1px solid #597f7d;
+}
+
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+    display: table-cell;
+   
+}
+
+pre {
+        font-family: 'Fira Mono', monospace;
+        font-size: 75%;
+        margin-left: 2em;
+	max-width: 100%;
+	overflow: auto;
+}
+
+img {
+        max-width: 100%;
+}
+
+footer {
+   position: fixed;
+   width: 100%;
+   bottom: 0%;
+   left: 50%;
+   transform: translate(-50%, 0);
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-bottom: 1%;
+   background-color: rgba(24, 23, 20, 0.80); 
+}
+
+
+.button1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: inline-block;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-size: 220%;
+  background-color: #c08e8e; 
+  color: #181714; 
+  border: 2px solid #c08e8e;
+}
+
+.button1:hover {
+  background-color: #181714;
+  color: #c08e8e;
+}
+
+.button2 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 11px;
+  background-color: #181714; 
+  color: #754f4f; 
+  border: 2px solid #754f4f;
+}
+
+.button2:hover {
+  background-color: #754f4f;
+  color: #181714;
+}
+
+/* Colors */
+
+body { background: #181714; color: #c08e8e; }
+p.lede { color: #c08e8e; }
+blockquote { color: #c08e8e; }
+pre { color: #c08e8e; }
+h1 { color: #c08e8e; }
+h2 { color: #c08e8e; }
+h3 { color: #754f4f; }
+
+/* Responsivity */
+
+@media only screen and (max-width: 499px) and (orientation: portrait) {
+        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
+        padding-left: 0; padding-right: 0; }  
+        
+         div.ascii {
+          font-size: 9px;
+         } 
+}
+@media only screen and (orientation: landscape) and (max-width: 850px) {
+        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
+        padding-left: 0; padding-right: 0; }
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+
+<center>
+
+<div class="ascii">
+</br>
+<pre id=pre  style="font-size: 100%">
+_  _ ____ _  _ ____ ____ ____ _  _ ____ ____ _  _  _ ____ 
+|\ | |___ |  | |__/ |  | [__  |__| |__| |    |_/   | |  | 
+| \| |___ |__| |  \ |__| ___] |  | |  | |___ | \_ .| |__| 
+</pre>
+</div>
+
+
+<img src="" title="Image">
+<!-- help blue link-text -->
+<nav>
+<h5><a href="blog.0x">blog</a> / <a href="nft.0x">nfts</a> / <a href="lore.0x">lore</a></h5> 
+</nav>
+<!-- -->
+</center>
+<center>
+<div>
+		<i>
+<div><i><font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">Blog</div></font></i>
+</i>
+</div>
+</center>
+<p></p>
+<div>
+	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
+		<i>Releasing The Swamp Chronicals Part 1</i>
+	</font>
+<div align="left">
+This scfi/horror story was developed last year and was intended to be an animation for a film festival.
+Due to a small budget we only did one part of the story as an audiobook, hope you enjoy it.
+<div align="center"><img src="" width="250" height="250"></div> 
+We also want to release 2 OSTs shortly after as NFTs. Check back for updates.
+
+<div align="right">
+<p class="lede">
+<font size="2">091421</font><font size="2">/</font><font size="2" color="grey">dt</font></a>
+</div>
+<div>
+	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
+		<i>New Glitch NFT Launching Soon</i>
+	</font>
+<div align="left">
+NS crew is releasing an old NFT developed last year but never released. Artists: Helios, Valintina,  ranker 
+It was a bigger team to help develop this project, thanks to all those involved!
+</div>
+<div align="center">
+<img src="" width="250" height="250" >  
+</div>
+<div align="left">
+We plan to launch it 10-01-21, thanks to all involved and the NFT community.
+</div>
+
+
+<div align="right">
+<p class="lede">
+<font size="2">091321</font><font size="2">/</font><font size="2" color="grey">dt</font></a>
+</div>
+<div>
+<div>
+	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
+		<i>Neuroshack's NFT on Polygon</i>
+	</font>
+<div>
+Our first minted NFT just launched using Polygon, view on <a href="https://www.Opensea.io/neuroshack">opensea</a>.
+</div>
+<div align="center">
+<img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif" alt="funny animation GIF" width="320px"> 
+</div>
+<div align="center">
+<a href="https://opensea.io/Neuroshack" class="button button1">Get this NFT!</a>
+</div>
+<div align="right">
+<p class="lede">
+<font size="2">090711</font><font size="2">/</font><font size="2" color="grey">dt</font>
+</div>
+<div>
+	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
+		<i>The Next Step</i>
+	</font>
+<br>
+It's been a year since the project team started, The NS crew started a year ago in October and had plans to turn the shortstory into an animation.
+</br>
+	<br>
+	We have developed a 3D hanger, 2D ship designs (including interior design), 2D concept characters, and the market concept. We're slowly working on this project and always accepting new colaberators.
+	</br>
+<br>
+Due to lack of funding, we are now focusing our development on NFT creation and webdesign. 
+<div align="right">
+<p class="lede">
+<font size="2">090221</font><font size="2">/</font><font size="2" color="grey">dt</font></a>
+</div>
+<div>
+	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
+		<i>Project Intro.</i>
+	</font>
+<br>
+Hi welcome, we are still creating the site, please stop by again for more content. We are a team of artists and developers that create NFT artwork and storys.
+</br>
+<div align="right">
+<p class="lede">
+<font size="2">083021</font><font size="2">/</font><font size="2" color="grey">dt</font></a>
+</div>
+</p>
+<center>
+<h5>The Funds go to...</h5>
+</center>
+<p></p>
+<!-- FUNDS-go2_start -->
+<!-- -->
+<font size="3">
+	<i>
+We accept donations 
+	<font color="grey">btc</font> / <font color="grey">grin</font>. 
+Thanks for all the support!
+	</i>
+<!-- FUNDS-go2_end -->
+<!-- -->
+<!-- CONTACT_start -->
+<ul>
+<li>PRIM4T <i>backend-dev/artist // <a href="https://www.prim4t.art"><font color="grey">PRIM4T.art</font></a></i></li>
+<li>dt <i>technical artist</i> // <font color="grey">dt</font></li>
+</ul>
+</i>
+</font>
+<!-- CONTACT_end-->
+<!-- -->
+<!-- DONATIONS_start -->
+<p></p>
+<center>
+<!-- 
+-->
+<h5>Donations</h5>
+<div class="Row">
+   
+    <div class="Column"><div>
+        <h5 align="center" >Donate BTC</h5>
+        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png">
+    </div>
+
+    <div  style="padding-top: 5px;" align="center">
+        <button class="button button2" onclick="Copy()">Copy</button>
+        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text" value="bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn">
+    </div>
+
+    </div>
+
+    <div class="Column"><div>
+        <h5 align="center">Donate ETH</h5>
+        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/ETH.png">
+    </div>
+
+    <div  style="padding-top: 5px; content: space-around;" align="center">
+        <button class="button button2" onclick="Copy2()">Copy</button>
+        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text2" value="0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB">
+    </div>
+      
+    </div>
+
+    <div class="Column"><div>
+        <h5 align="center" >Donate GRIN</h5>
+        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/grin.png">
+    </div>
+
+    <div style="padding-top: 5px;" align="center">
+        <button class="button button2" onclick="Copy3()">Copy</button>
+        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text3" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+    </div>
+      <h5>Coming soon</h5> 
+    </div>
+</div>
+<!-- DONATIONS_end-->
+<!-- -->
+<!-- -->
+</center>
+
+<p></p>
+</div>
+
+</body>
+
+<footer>
+<center>
+<h3>© NeuroShack.io <script>document.write( new Date().getFullYear() );</script> 
+</h3>
+
+<a href="./" class="button button2">Home</a>
+
+<a href="mailto:d.trieb@mailfence.com" class="button button2">Contact</a>
+
+</center>
+</footer>
+<script>
+var copy_text_val = document.querySelector('.copy_text');
+
+function Copy() {
+  copy_text_val.select();
+  document.execCommand("copy");
+  console.log(copy_text_val.value);
+} 
+
+var copy_text_val2 = document.querySelector('.copy_text2');
+
+function Copy2() {
+  copy_text_val2.select();
+  document.execCommand("copy2");
+  console.log(copy_text_val.value);
+} 
+
+var copy_text_val3 = document.querySelector('.copy_text3');
+
+function Copy3() {
+  copy_text_val3.select();
+  document.execCommand("copy3");
+  console.log(copy_text_val.value);
+} 
+</script>
+</html>
 <!-- <!DOCTYPE html>
 <html>
 <head>
