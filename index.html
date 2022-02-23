@@ -1,420 +1,76 @@
-<!DOCTYPE html>
-<html>
-<head>	
-<title>ns_blog</title>
-<meta name="viewport" content="initial-scale=1.0">
-
-<style>
-body {
-        font-family: monospace;
-        font-weight: 400;
-        font-size: 11pt;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-bottom: 100px;
-        
-}
-
-#container {
-        margin: auto;
-        max-width: 40em;
-}
-
-h1 {
-        font-size: 200%;
-}
-
-h2 {
-        font-size: 167%;
-}
-
-h3 {
-        font-size: 75%;
-        font-weight: normal;
-}
-
-
-a {
-        text-decoration: none;
-        font-weight: 600;
-}
-
-p, ul {font-size: 90%;
-        margin-left: 1.5em;
-}
-
-p.lede {
-        font-size: 120%;
-        margin-left: 1.25em;
-}
-
-ul {
-        list-style: none;
-        margin-left: 0;
-        padding-left: 3em;
-}
-ul li {
-        margin-top: 5pt;
-        margin-bottom: 5pt;
-}
-ul li::before {
-        content: "•";
-        color: #c08e8e;
-        font-weight: bold;
-        display: inline-block;
-        width: 1.1em;
-        margin-left: -1.1em;
-}
-
-blockquote {
-        margin-left: 2.25em;
-        font-style: italic;
-        font-weight: 300;
-        padding-left: 0.75em;
-        border-left: 1px solid #597f7d;
-}
-
-.Row {
-    display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px; /*Optional*/
-}
-.Column {
-    display: table-cell;
-   
-}
-
-pre {
-        font-family: 'Fira Mono', monospace;
-        font-size: 75%;
-        margin-left: 2em;
-	max-width: 100%;
-	overflow: auto;
-}
-
-img {
-        max-width: 100%;
-}
-
-footer {
-   position: fixed;
-   width: 100%;
-   bottom: 0%;
-   left: 50%;
-   transform: translate(-50%, 0);
-   padding-left: 1%;
-   padding-right: 1%;
-   padding-bottom: 1%;
-   background-color: rgba(24, 23, 20, 0.80); 
-}
-
-
-.button1 {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  display: inline-block;
-  cursor: pointer;
-  padding: 16px 32px;
-  font-size: 220%;
-  background-color: #c08e8e; 
-  color: #181714; 
-  border: 2px solid #c08e8e;
-}
-
-.button1:hover {
-  background-color: #181714;
-  color: #c08e8e;
-}
-
-.button2 {
-  display: inline-block;
-  cursor: pointer;
-  padding: 4px 8px;
-  font-size: 11px;
-  background-color: #181714; 
-  color: #754f4f; 
-  border: 2px solid #754f4f;
-}
-
-.button2:hover {
-  background-color: #754f4f;
-  color: #181714;
-}
-
-/* Colors */
-
-body { background: #181714; color: #c08e8e; }
-p.lede { color: #c08e8e; }
-blockquote { color: #c08e8e; }
-pre { color: #c08e8e; }
-h1 { color: #c08e8e; }
-h2 { color: #c08e8e; }
-h3 { color: #754f4f; }
-
-/* Responsivity */
-
-@media only screen and (max-width: 499px) and (orientation: portrait) {
-        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
-        padding-left: 0; padding-right: 0; }  
-        
-         div.ascii {
-          font-size: 9px;
-         } 
-}
-@media only screen and (orientation: landscape) and (max-width: 850px) {
-        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
-        padding-left: 0; padding-right: 0; }
-}
-
-</style>
-</head>
-<body>
-<div id="container">
-
-<center>
-
-<div class="ascii">
-</br>
-<pre id=pre  style="font-size: 100%">
-_  _ ____ _  _ ____ ____ ____ _  _ ____ ____ _  _  _ ____ 
-|\ | |___ |  | |__/ |  | [__  |__| |__| |    |_/   | |  | 
-| \| |___ |__| |  \ |__| ___] |  | |  | |___ | \_ .| |__| 
-</pre>
-</div>
-
-
-<img src="" title="Image">
-<!-- help blue link-text -->
-<nav>
-<h5><a href="blog.0x">blog</a> / <a href="nft.0x">nfts</a> / <a href="lore.0x">lore</a></h5> 
-</nav>
-<!-- -->
-</center>
-<center>
-<div>
-		<i>
-<div><i><font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">Blog</div></font></i>
-</i>
-</div>
-</center>
-<p></p>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>Releasing The Swamp Chronicals Part 1</i>
-	</font>
-<div align="left">
-This scfi/horror story was developed last year and was intended to be an animation for a film festival.
-Due to a small budget we only did one part of the story as an audiobook, hope you enjoy it.
-<div align="center"><img src="" width="250" height="250"></div> 
-We also want to release 2 OSTs shortly after as NFTs. Check back for updates.
-
-<div align="right">
-<p class="lede">
-<font size="2">091421</font><font size="2">/</font><font size="2" color="grey">dt</font></a>
-</div>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>New Glitch NFT Launching Soon</i>
-	</font>
-<div align="left">
-NS crew is releasing an old NFT developed last year but never released. Artists: Helios, Valintina,  ranker 
-It was a bigger team to help develop this project, thanks to all those involved!
-</div>
-<div align="center">
-<img src="" width="250" height="250" >  
-</div>
-<div align="left">
-We plan to launch it 10-01-21, thanks to all involved and the NFT community.
-</div>
-
-
-<div align="right">
-<p class="lede">
-<font size="2">091321</font><font size="2">/</font><font size="2" color="grey">dt</font></a>
-</div>
-<div>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>Neuroshack's NFT on Polygon</i>
-	</font>
-<div>
-Our first minted NFT just launched using Polygon, view on <a href="https://www.Opensea.io/neuroshack">opensea</a>.
-</div>
-<div align="center">
-<img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif" alt="funny animation GIF" width="320px"> 
-</div>
-<div align="center">
-<a href="https://opensea.io/Neuroshack" class="button button1">Get this NFT!</a>
-</div>
-<div align="right">
-<p class="lede">
-<font size="2">090711</font><font size="2">/</font><font size="2" color="grey">dt</font>
-</div>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>The Next Step</i>
-	</font>
-<br>
-It's been a year since the project team started, The NS crew started a year ago in October and had plans to turn the shortstory into an animation.
-</br>
-	<br>
-	We have developed a 3D hanger, 2D ship designs (including interior design), 2D concept characters, and the market concept. We're slowly working on this project and always accepting new colaberators.
-	</br>
-<br>
-Due to lack of funding, we are now focusing our development on NFT creation and webdesign. 
-<div align="right">
-<p class="lede">
-<font size="2">090221</font><font size="2">/</font><font size="2" color="grey">dt</font></a>
-</div>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>Project Intro.</i>
-	</font>
-<br>
-Hi welcome, we are still creating the site, please stop by again for more content. We are a team of artists and developers that create NFT artwork and storys.
-</br>
-<div align="right">
-<p class="lede">
-<font size="2">083021</font><font size="2">/</font><font size="2" color="grey">dt</font></a>
-</div>
-</p>
-<center>
-<h5>The Funds go to...</h5>
-</center>
-<p></p>
-<!-- FUNDS-go2_start -->
-<!-- -->
-<font size="3">
-	<i>
-We accept donations 
-	<font color="grey">btc</font> / <font color="grey">grin</font>. 
-Thanks for all the support!
-	</i>
-<!-- FUNDS-go2_end -->
-<!-- -->
-<!-- CONTACT_start -->
-<ul>
-<li>PRIM4T <i>backend-dev/artist // <a href="https://www.prim4t.art"><font color="grey">PRIM4T.art</font></a></i></li>
-<li>dt <i>technical artist</i> // <font color="grey">dt</font></li>
-</ul>
-</i>
-</font>
-<!-- CONTACT_end-->
-<!-- -->
-<!-- DONATIONS_start -->
-<p></p>
-<center>
-<!-- 
+<!DOCTYPE html>                                                                     
+<html>                                                                              
+                                                                               <!--                                                            
+   +------------------------------------------+                                    
+   |  https://www.neuroshack.io/              |                                      
+   |  Created and modified by PRIM4T and dt   |                                    
+   |  https://www.PRIM4T.art/                 |                                   
+   |  https://www.codepen.io/dt_zero          |                                     
+   +------------------------------------------+                               
+          							        -->
+<!--     Notes: 
+		- Whitepaper outdated 
+		- Links are not linking to actual source
 -->
-<h5>Donations</h5>
-<div class="Row">
-   
-    <div class="Column"><div>
-        <h5 align="center" >Donate BTC</h5>
-        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png">
-    </div>
-
-    <div  style="padding-top: 5px;" align="center">
-        <button class="button button2" onclick="Copy()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text" value="bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn">
-    </div>
-
-    </div>
-
-    <div class="Column"><div>
-        <h5 align="center">Donate ETH</h5>
-        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/ETH.png">
-    </div>
-
-    <div  style="padding-top: 5px; content: space-around;" align="center">
-        <button class="button button2" onclick="Copy2()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text2" value="0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB">
-    </div>
-      
-    </div>
-
-    <div class="Column"><div>
-        <h5 align="center" >Donate GRIN</h5>
-        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/grin.png">
-    </div>
-
-    <div style="padding-top: 5px;" align="center">
-        <button class="button button2" onclick="Copy3()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text3" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
-    </div>
-      <h5>Coming soon</h5> 
-    </div>
-</div>
-<!-- DONATIONS_end-->
-<!-- -->
-<!-- -->
-</center>
-
-<p></p>
-</div>
-
-</body>
-
-<footer>
-<center>
-<h3>© NeuroShack.io <script>document.write( new Date().getFullYear() );</script> 
-</h3>
-
-<a href="./" class="button button2">Home</a>
-
-<a href="mailto:d.trieb@mailfence.com" class="button button2">Contact</a>
-
-</center>
-</footer>
-<script>
-var copy_text_val = document.querySelector('.copy_text');
-
-function Copy() {
-  copy_text_val.select();
-  document.execCommand("copy");
-  console.log(copy_text_val.value);
-} 
-
-var copy_text_val2 = document.querySelector('.copy_text2');
-
-function Copy2() {
-  copy_text_val2.select();
-  document.execCommand("copy2");
-  console.log(copy_text_val.value);
-} 
-
-var copy_text_val3 = document.querySelector('.copy_text3');
-
-function Copy3() {
-  copy_text_val3.select();
-  document.execCommand("copy3");
-  console.log(copy_text_val.value);
-} 
-</script>
-</html>
-<!-- <!DOCTYPE html>
-<html>
+  <body>                                                                             
+                                                          <!--                              
+   .______________________________________________________________.                                        
+   |              !BANNER_IMG                                     |             -->
+    <!-- <img src="banner.tiff" width="400" height="50" src="img.tiff">  -->           <!-- 
+   |______________________________________________________________|             -->
+                                                                                
 <head>
-<title>ns_blog</title>
-<meta name="viewport" content="initial-scale=1.0">
-
-<style>
+                                                                             
+<title>/ N E U R O S H A C K's the Offical Webpage | Updated:022222 /   </title>
+                                                                   
+<!-- -->                                                                                            
+  <meta charset=UTF-8">                                                                                  
+<!-- -->                                                                                                 
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">    
+  <meta name="keywords" content="null, null">                                             
+  <meta property="og:title" content="null">                                                               
+  <meta name="owner" content="null">                                                                       
+  <meta property="og:description" content="null">                                                       
+  <meta property="og:site_name" content="null">                                                       
+<!--                                                                                                   
+  	+-------+                                                                                       
+   	|  CSS  |                                                                                     
+   	+-------+                                                                                   
+-->                                                                                                
+<style>                                                                                   
 body {
-        font-family: monospace;
-        font-weight: 400;
-        font-size: 11pt;
+/*font*/font-family: monospace;
+/*bold*/font-weight: 400;
+/*tiny*/font-size: 9pt;
+  /*
+	   Note:
+	       the "em" value is based on the width of
+	       the uppercase M   
+*/
         padding-left: 1em;
         padding-right: 1em;
-        padding-bottom: 100px;
-        
+	padding-top: 7px;
+        padding-bottom: 50px;        
 }
-
-#container {
-        margin: auto;
-        max-width: 40em;
+video {
+padding-left: 46px;
 }
+iframe {
+padding-left: 45px;
+}
+span {
+ margin-left: 69px;
+}
+a {
+      color: #754f4f;
+      text-decoration: none;
+    }
+/* */
 
+/*Headers*/
+header {
+margin-left: 235px;
+}
 h1 {
         font-size: 200%;
 }
@@ -424,17 +80,19 @@ h2 {
 }
 
 h3 {
+	margin-left: 59px;
         font-size: 75%;
         font-weight: normal;
 }
-
-
+/*Links*/
 a {
         text-decoration: none;
-        font-weight: 600;
-}
+        font-weight: 3;
 
-p, ul {font-size: 90%;
+}
+/*List+Paragraph*/
+p, ul {
+	font-size: 90%;
         margin-left: 1.5em;
 }
 
@@ -442,7 +100,7 @@ p.lede {
         font-size: 120%;
         margin-left: 1.25em;
 }
-
+/*List_Style*/
 ul {
         list-style: none;
         margin-left: 0;
@@ -468,74 +126,138 @@ blockquote {
         padding-left: 0.75em;
         border-left: 1px solid #597f7d;
 }
-
-.Row {
-    display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px; /*Optional*/
-}
-.Column {
-    display: table-cell;
-   
-}
-
+/*pre_text*/
 pre {
         font-family: 'Fira Mono', monospace;
-        font-size: 75%;
-        margin-left: 2em;
+        font-size: 75.15%;
+        margin-left: 1em;
 	max-width: 100%;
-	overflow: auto;
+	overflow: hidden;
+}
+
+nav {
+        font-family: 'monospace;
+        font-size: 50.15%;
+        margin-left: 195px;
+	overflow: hidden;
 }
 
 img {
         max-width: 100%;
+	padding-left: 75px;
 }
-
+section {
+        font-family: 'Fira Mono', monospace;
+        font-size: 75.15%;
+        margin-left: 100px;
+	max-width: 100%;
+	overflow: hidden;
+}
 footer {
    position: fixed;
    width: 100%;
    bottom: 0%;
    left: 50%;
    transform: translate(-50%, 0);
-   padding-left: 1%;
+   padding-left: 300px;
    padding-right: 1%;
    padding-bottom: 1%;
    background-color: rgba(24, 23, 20, 0.80); 
 }
 
-
+/*BUTTONS*/
 .button1 {
   margin-top: 5%;
   margin-bottom: 5%;
   display: inline-block;
-  cursor: pointer;
-  padding: 16px 32px;
-  font-size: 220%;
+  cursor: crosshair;
+  padding: 3px 6px;
+  font-size: 200%;
   background-color: #c08e8e; 
   color: #181714; 
-  border: 2px solid #c08e8e;
+  /*border: 2px solid #c08e8e;*/
 }
 
 .button1:hover {
-  background-color: #181714;
+ background-color: #181714;
   color: #c08e8e;
+}
+.button999 {
+   display: inline-flex;
+  /*cursor: crosshair;*/
+   padding: 0px 0px;
+   font-size: 10px;
+   font-weight: 200;
+   background-color: black; 
+   
+   color: #754f4f; 
+  /*border: 2px solid #754f4f;*/
 }
 
 .button2 {
   display: inline-block;
-  cursor: pointer;
-  padding: 4px 8px;
-  font-size: 11px;
-  background-color: #181714; 
+  cursor: crosshair;
+  /*padding: 1px 1px;*/
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 2px;
+   padding-top: 0px;
+  font-size: 15px;
+  background-color: #000000; 
   color: #754f4f; 
-  border: 2px solid #754f4f;
 }
 
 .button2:hover {
   background-color: #754f4f;
+  color: #000000;
+}
+
+  /*  Button */
+  /*  B_#18 */
+
+.button18 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 6px;
+  font-size: 9px;
+  background-color: #181714; 
+  color: #754f4f; 
+  /*border: 1px solid #754f4f;*/
+}
+
+.button24 {
+ /* display: inline-block;*/
+ /* cursor: pointer;*/
+ /* padding: 3px 6px;*/
+  /*font-size: 9px;*/
+  /*background-color: #181714; */
+  /*color: #754f4f;*/ 
+  /*border: 1px solid #754f4f;*/
+}
+.button24:hover {
+  background-color: #754f4f;
+  /*color: #181714;*/
+}
+
+.button24:hover {
+  background-color: #000000;
+  /*color: #181714;*/
+}
+.button9 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 6px;
+  font-size: 11px;
+  background-color: #181714; 
+  color: #754f4f; 
+  border: 1px solid #754f4f;
+}
+
+.button9:hover {
+  background-color: #754f4f;
   color: #181714;
 }
+
 
 /* Colors */
 
@@ -551,217 +273,294 @@ h3 { color: #754f4f; }
 
 @media only screen and (max-width: 499px) and (orientation: portrait) {
         body { font-size: 12pt; -webkit-text-size-adjust: 100%;
-        padding-left: 0; padding-right: 0; }  
-        
-         div.ascii {
-          font-size: 9px;
-         } 
+        padding-left: 0; padding-right: 0; }
 }
 @media only screen and (orientation: landscape) and (max-width: 850px) {
         body { font-size: 12pt; -webkit-text-size-adjust: 100%;
         padding-left: 0; padding-right: 0; }
 }
-
+/*              */
 </style>
 </head>
+<!--  
+-->
 <body>
-<div id="container">
 
-<center>
+<div>
+  <font size="4" color="oldlace">
+    <header><!--null--></header> 
+  </font>
+</div>
 
-<div class="ascii">
-</br>
-<pre id=pre  style="font-size: 100%">
-_  _ ____ _  _ ____ ____ ____ _  _ ____ ____ _  _  _ ____ 
-|\ | |___ |  | |__/ |  | [__  |__| |__| |    |_/   | |  | 
-| \| |___ |__| |  \ |__| ___] |  | |  | |___ | \_ .| |__| 
+<div style="line-height: 2"><pre>  
+        <span class="neon">  ⟠ NEUROSHACK.io
+				Contract Address: 0x3f6ef922t3j2v5m22129e91jf762H899E3j
+                                        Token ID: 114575206702848530064137917287803621834875...</a>
+	                   <i>ERC-1155 / Blockchain: Polygon / Metadata: Editable by creator</i> </pre>
+      </span></div>
+<div>
+  <!-- Menu -->
+<nav>
+<a href="codepen.io/dt_zero" style="cursor:crosshair" class="button button2"><strong><font size="3">Home</font></strong></a> |
+<a href="codepen.io/dt_zero" style="cursor:crosshair" class="button button2"><strong><font size="3">Blog</font></strong></a> |
+<a href="codepen.io/dt_zero" style="cursor:crosshair" class="button button2"><strong><font size="3">Showcase</font></strong></a> |
+<a href="codepen.io/dt_zero" style="cursor:crosshair" class="button button2"><strong><font size="3">MiniDiscs</font></strong></a>
+</div>
+</nav>
+		<!--
+		+------------+
+		| text_start |
+		+------------+
+		-->
+              <pre>
+	   <font size="2"><i>## Showcase:</font>	</i>
+		</pre>                               
+                                                                             
+           <div>
+
+</div>
+<div>	
+<video width="450" "height="450" controls><source src="movie.mp4" type="video/mp4"></video>
+</div>
+<pre>
+	IPFS:	       <a href=" " style="cursor:crosshair" class="button button24" target="_blank">0x923j2gfJ3kwE22cSjj299sk2ooda4RRwqmN2j993lKuYY853006</a> 	 
+	Title:         <font class="button button999">The Swamp Chronicals Part 1 - Audiobook</font>  
+	Type:  	       <i>.mp4</i>        
+	Creator:       Neuroshack                    
+	Narrator:      lan         
+	Artwork:       B.F. Butcher       
+	Hosted:        <a href="https://opensea.io/" style="cursor:crosshair" target="_blank" class="button button24">youtube.com/0x/link/98236g3dx333343876dsf3s9</a>    
 </pre>
-</div>
+<!-- /break/ -->
+<!-- /break/ -->  
+		   <div> 
+<iframe width="450" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1172943832&color=%235c849e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+	<pre>	
+	IPFS:	       <a href=" " style="cursor:crosshair" class="button button24" target="_blank">0x923j2gfJ3kwE22cSjj299sk2ooda4RRwqmN2j993lKuYY853006</a>		                
+	Title:         <font class="button button999">The Swamp Chronicals - OST - Album</font>	
+	Type:          <i>.mp4</i>
+	Creator:       Neuroshack
+	Tracks:        A. STRANDED
+ 	               B. Silent Gate
+	Cover:         dt
+	Contributors: 
+	               1. MADMATIC          2. Vince19drums 
+	               3. Helios_XII        4. _j0ules
+	               5. tremor_sounds     5. titanglade
+	Hosted:        <a href="https://opensea.io/" class="button button24" style="cursor:crosshair" target="_blank">https://opensea.io/neuroshack</a>
+	Text:            <i> A lone and desolate pilot dwells in a swampy wasteland..waiting,
+		                        ..waiting for the silent gate..
+                     
+		          Noisy and irritating insects vibrate near his ear as he attempts
+		          to swat them away, but cant. Eyes wide a single tear drops as he
+		          adjusts from his placid position; but holds strong, eyes shift as
+                          he quickly thinks of a revered memory. A last breath leaves his 
+	                  cracked lips, the small cloud of vapor slowly disapears..
 
+                              One low, wandering man in woe, 
+				I often crossed on my way 
+			  He appealed so abjectly for reprieve
+			 that there was only one thing I could say
+ 
+                             I had no right to demand his name, 
+			    or where he went, from where he came
+	          Still, there rang something in his spirit that won my care. 
+		               Now, like he, could I receive
+				       the same?
+						<i>-The Stranger</i>
+</pre> 
 
-<img src="" title="Image">
+<!-- /break/ -->
 
-<h5>Blog</h1> 
-
-</center>
-
-<p>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>Opensea NFT Minting</i>
-	</font>
-<div>
-We launched our first NFT exclusively on the opensea platform. 
-We went with opensea because they were the first at the time that supported .mp4 files.</div>
-</div>
-
-</br>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif" alt="funny animation GIF" width="320px"> 
-</div>
-<div align="center">
-<a href="https://opensea.io/Neuroshack" class="button button1">Get this NFT!</a>
-</div>
-<div align="right">
-<p class="lede">
-<font size="2">090121</font><font size="2">/</font><a href="https://codepen.io/dt_zero"><font size="2" color="grey">dt</font></a>
-</div>
-</p>
-<p>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>The Next Step</i>
-	</font>
-<br>
-We also thought of developing a NFT RNG P2E text-based game called <i>ceptrs</i>. If it launched, it will be html5 based with 2D/3D animated scenes using <a href="https://krita.org"><font color="grey"><i>krita</font></a></i> / <a href="https://www.blender.org/"><font color="grey"><i>blender</i></font></a>.
-This was project was inspired by <i>tamiya mini-4WD cars</i> customization, the new <i><a href="zed.run"><font color="grey">zed.run</font></a></i> project, and an old web-text-based game.
-</br>
-	<br>
-	We have developed a 'Ceptr' 3D Hanger, 2D ships (including interior design), 2D concept characters, and a 3D market being slowly developed. Although due to lack of funding; this is a dead ptroject.
-	</br>
-<div align="right">
-<p class="lede">
-<font size="2">082921</font><font size="2">/</font><a href="https://codepen.io/dt_zero"><font size="2" color="grey">dt</font></a>
-</div>
-</p>
-<p>
-<div>
-	<font size="4" color="whitesmoke" style="text-shadow: 3px 2px black;">
-		<i>Project Intro.</i>
-	</font>
-<br>
-Hi welcome, we are still creating the site, please stop by again for more content. We are a team of artists and developers that create NFT artwork and storys.
-</br>
-<div align="right">
-<p class="lede">
-<font size="2">083121</font><font size="2">/</font><a href="https://codepen.io/dt_zero"><font size="2" color="grey">dt</font></a>
-</div>
-</p>
-
-
-<p></p>
-<center>
-<h5>The Funds go to...</h5>
-</center>
-<p></p>
-<font size="3"><i>We accept donations <a href="direct_btcserverpage.html"><font color="grey">btc</font></a> / <a href="grin_page.html"><font color="grey">grin</font></a>. Thanks for all the support!</i>
-<!-- 
-maybe have a CSS drop down when you hover over grin, 
-and a 300x300px transparent window hovers over to the right,
-if the cursor is on that window, it allows the user to paste information and hit submit.
-this doesn't damage the architecture
-"
-To send a donation, paste your slate into the text-box and hit submit.
-<script>
-</script>
-"
---> <!--
-<ul>
-<li>PRIM4T <i>backend-dev/artist // <a href="https://www.prim4t.art"><font color="grey">PRIM4T.art</font></a></i></li>
-<li>dt <i>technical artist // <a href="https://www.codepen.io/dt_zero"><font color="grey">codepen.io/dt_zero</font></a></li>
-</ul>
-</i>
-</font>
-<p></p>
-
-<center>
-<!-- 
-#
-#
-maybe make these smaller? 
-
-
-<h5>Donations</h5>
-
-
-
-<div class="Row">
-   
-    <div class="Column"><div>
-        <h5 align="center" >Donate BTC</h5>
-        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png">
-    </div>
-
-    <div  style="padding-top: 5px;" align="center">
-        <button class="button button2" onclick="Copy()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text" value="bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn">
-    </div>
-
-    </div>
-
-    <div class="Column"><div>
-        <h5 align="center">Donate ETH</h5>
-        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/ETH.png">
-    </div>
-
-    <div  style="padding-top: 5px; content: space-around;" align="center">
-        <button class="button button2" onclick="Copy2()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text2" value="0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB">
-    </div>
-      
-    </div>
-
-    <div class="Column"><div>
-        <h5 align="center" >Donate GRIN</h5>
-        <img style="display:block;" width="100%" height="100%" src="https://raw.githubusercontent.com/dtrieb123/neuroshack/main/grin.png">
-    </div>
-
-    <div style="padding-top: 5px;" align="center">
-        <button class="button button2" onclick="Copy3()">Copy</button>
-        <input type="text" STYLE="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: #1c1c1c;" size="10"              maxlength="30" class="copy_text3" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
-    </div>
-      <h5>Coming soon</h5> 
-    </div>
-
-</div>
-
-
-
+<!-- /break/ -->
+<pre>
+	IPFS:	       <a href=" " style="cursor:crosshair" class="button button24" target="_blank">0x923j2gfJ3kwE22cSjj299sk2ooda4RRwqmN2j993lKuYY853006</a>
+	Title:         <font class="button button999">The Swamp Chronicals - Single</font> 	
+	Type:          <i>.mp4</i>
+	Creator(s):    Neuroshack
+	Track:         Audiobook Intro - Vastness of Space
+	Cover:         1. _j0ules             2. treskiddos
+	               3. taha s.             4. Purdue U.
+   	Contributors:  1. kralsound           2. Vince19drums
+	Hosted:        <a href="https://opensea.io/" style="cursor:crosshair" class="button button24" target="_blank">https://opensea.io/neuroshack</a>
+</pre><pre>
+	IPFS:	       <a href=" " style="cursor:crosshair" class="button button24" target="_blank">0x923j2gfJ3kwE22cSjj299sk2ooda4RRwqmN2j993lKuYY853006</a>		                            
+	Title:         <font class="button button999">SCHREI by Helios and Valentina - Neuroshack - NFT Music</font> 	
+        Type:          </i>.mp4</i>
+	Creator(s):    Neuroshack
+	Cover:         PRIM4T  
+	Contributors:  1. Helios_XII      2. Valentina Iela
+	Hosted:        <a href="https://opensea.io/" style="cursor:crosshair" class="button button24" target="_blank">https://opensea.io/neuroshack</a>
+</pre><pre>
+	IPFS:	       <a href=" " style="cursor:crosshair" class="button button24" target="_blank">0x923j2gfJ3kwE22cSjj299sk2ooda4RRwqmN2j993lKuYY853006</a>		                            
+	Title:         <font class="button button999">Neuroshack NFT #1</font> 	
+	Type:          <i>.mp4</i>
+	Creator(s):    Neuroshack
+	Contributors:  Mackenzie J.B.
+	Hosted:        <a href="https://opensea.io/" style="cursor:crosshair" class="button button24" target="_blank">https://opensea.io/neuroshack</a>
+</pre>
+<!--
  -->
-<!-- 
-</center>
-
-<p></p>
-</div>
-
-</body>
-
-<footer>
-<center>
-<h3>© NeuroShack.io <script>document.write( new Date().getFullYear() );</script> 
-</h3>
-
-<a href="./" class="button button2">Home</a>
-
-<a href="mailto:d.trieb@mailfence.com" class="button button2">Contact</a>
-
-</center>
+<footer><pre>
+            <font color="#754f4f">© Neuroshack 2022    </font>        
+<a href=" " style="cursor:crosshair">Contact</a> <font color="#754f4f">|</font> <a href=" " style="cursor:crosshair">FAQ</a> <font color="#754f4f"> |</font> <a href=" " style="cursor:crosshair">Terms of Service <font color="#754f4f">|</font> <a href=" " style="cursor:crosshair">Licences</a></pre>
 </footer>
-<script>
-var copy_text_val = document.querySelector('.copy_text');
+<!-- 
 
-function Copy() {
-  copy_text_val.select();
-  document.execCommand("copy");
-  console.log(copy_text_val.value);
-} 
+# Whitepaper:
+	Title:
+	   Neuroshack
+	Updated:
+	   ?? 
+	[link](https://www.neuroshack.io/)
 
-var copy_text_val2 = document.querySelector('.copy_text2');
+# Sources:
+	 *Note: Not sure what to put here*
 
-function Copy2() {
-  copy_text_val2.select();
-  document.execCommand("copy2");
-  console.log(copy_text_val.value);
-} 
+	[link](www.prim4t.art)
+	   A main contributor to Neuroshack as the back-end Developer / Artist
+	   Has a passion for creating / maintaining blockchain projects and is
+	   an experienced and talented artist in all aspects of web-design. 
+	[link](www.zplit.online)
+	   A talented blockchain music artist / web-designer who is a pioneer
+	   in the industry, and is dynamically carving a path in the NFT space.
 
-var copy_text_val3 = document.querySelector('.copy_text3');
+	[link](www.eatbrain.net)
+	   We are inspired by their art style, their storytelling and their album covers.
+	   They are also a main contributor to the 'Neurofunk' scene.
 
-function Copy3() {
-  copy_text_val3.select();
-  document.execCommand("copy3");
-  console.log(copy_text_val.value);
-} 
-</script>
-</html>
+# Table of Content:
+			0. Sources	
+			1. Details
+			2. Network
+			3. Lore
+			4. Mixes
+			5. Albums
+			6. Other
+			7. Team
+			8. Misc.
+                                    
+# Details:
+	   We are global freelancers that team up on small projects to create; 
+	   artwork, music, and stories inspired by H.P. Lovecraft's storytelling.
+	   Since 2019 we had some contributors leave the team to work on other
+	   projects. Neuroshack's concept team took a break to work on NFT-P2E but
+	   stop development. In Q1 2022 we are now rebuilding and establishing a 
+	   new team to focus our work towards webdesign, music and art. 
+	
+# Network:
+	   Blockchain: Polygon
+	   Contract Address: 0x2953399124F0cBB46d2CbACD8A89cF0599974963
+	   
+	   Overview: MATIC is cheaper way to mint. It's not a side chain, 
+	   it's a commit chain branched from ETH. It allows more flexablity. 
+	   
+
+# Lore:
+	   Story: 
+	         Neuroshack - The Swamp Chronicals Part 1
+	   Creator(s): Neuroshack
+	   Narrator: lan
+	   Artwork: B.F. Butcher
+	   Hosted:
+	         [link](youtube.com/0x/link/98236g3dx333343876dsf3sdh37g3d23bf62hg7s9)
+	         Token ID: 114575206702848530064137917287803621834875060729614287726258536350807641554945
+	         *Token Standard: ERC-1155 / Blockchain: Polygon / Metadata: Editable*
+	   Text:
+	         null
+
+# Mixes: 
+	   *Note: We host mixes on soundcloud and mp3 downloadable version check our site*
+
+	   Hosted: 
+	         [link](Soundcloud.com/profile/0x)
+	   Mix #1:
+	      Cover:
+ 
+	   Mix #2: 
+	      Cover:
+ 
+# Albums:
+	*Note: These are still being updated*
+	
+	   Type: .mp4 /Album OST/
+	   Creator(s): Neuroshack
+	   Tracks: 
+	    *The Swamp Chronicals*
+	         A. STRANDED
+ 	         B. Silent Gate
+	   Cover: 
+	         dt
+	   Contributors: 
+	        1. MADMATIC          2. Vince19drums 
+	        3. Helios_XII        4. _j0ules
+	        5. tremor_sounds     5. **writer**
+	   Hosted: 
+	         [Link](https://opensea.com/profile/gif/img/here)
+	         Token ID: 114575206702848530064137917287803621834875060729614287726258536350807641554945
+	         *Token Standard: ERC-1155 / Blockchain: Polygon / Metadata: Editable*
+	   Text:
+ 	   A lone and desolate pilot dwells in a swampy wasteland..waiting.
+ 	   ..waiting and slowly moving towards the silent gate..
+
+	   Noisy and irritating insects vibrate near his ear as he attempts
+	   to swat them away, but cant. Eyes wide a single tear drops as he
+	   changes position; but he holds strong, eyes shift as he quickly
+	   thinks of a paradisal memory.
+	
+	   A last breath leaves his cracked lips, the small cloud of vapor
+	   slowly disapears..
+	   
+	   *poemQuote_input-here*
+	   	*-The Stranger*
+	
+	   Type: .mp4 /Single OST/
+	   Creator(s): Neuroshack
+	   Track:
+	       *The Swamp Chronicals*
+	   Audiobook Intro - Vastness of Space
+	   Cover: 1. _j0ules             2. treskiddos
+	          3. taha s.             4. Purdue U.
+   	   Contributors: 
+	          1. kralsound           2. Vince19drums
+	   Hosted: 
+	         [Link](https://Opensea.com/profile/0x)
+	         Token ID: 114575206702848530064137917287803621834875060729614287726258536350807641554945
+	         *Token Standard: ERC-1155 / Blockchain: Polygon / Metadata:Editable  by creator*
+# Other
+	   Type: .mp4 /Music Video/
+	   Creator(s): Neuroshack
+	   Track: SCHREI by Helios and Valentina - Neuroshack - NFT Music
+	   Cover: PRIM4T
+	   Contributors: 1. Helios_XII      2. Valentina
+	   Hosted:
+	         [link](https://youtube.com/0x/profile/0x9283u1282H3K312ldhermw3302d)
+	         Token ID: 114575206702848530064137917287803621834875060729614287726258536348608618299393
+	         *Token Standard: ERC-1155 / Blockchain: Polygon /Metadata: Editable by creator*
+	 
+	   Type: .mp4 /NFT/
+	   Creator(s): Neuroshack
+	   Title: Neuroshack NFT #1
+	   Contributors: 3D/2D artist M.J.Burkens
+	   Hosted:
+	         [link](https://opensea.io/0x/profile/029221k2k/0x)
+	         Token ID: 114575206702848530064137917287803621834875060729614287726258536347509106671617
+	         *Token Standard: ERC-1155 / Blockchain: Polygon / Metadata: Editable by creator*
+    
+# Team:
+	   |-Current_Team-------|-Title------------|
+	   |   dt               | technical_artist |
+	   |--------------------|------------------|
+	   |   PRIM4T           | backend-dev/art  |
+	   |--------------------|------------------|
+# Misc.:
+	Donations:
+	         Half of all donation funds go towards site development
+	         and half goes towards art/music development. 
+
+	         If you like your funds to go towards our NFT-P2E project
+	         please e-mail us! 
+## End 
+##                             "Stay humble.." 
+##                                    -Satoshi Nakamoto
 -->
