@@ -34,9 +34,7 @@
 <a > <img width ='100%'  height ='5px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> 
 <a name="todo"></a>
 # TODO-List:
- - 1 Check and edit indext.html /blog/, indext2.html /NFTs/, indext3.html /lore/
- - 2 Mint or share the next NFT on Polygon or share the video on Youtube/Dtube
- - 3 Mint or share the short audiobook on Dtube/Youtube
+
  
 <a> <img width ='100%'  height ='5px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> </a>
 
