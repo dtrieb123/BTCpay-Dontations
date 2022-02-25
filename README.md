@@ -26,7 +26,7 @@
 
 ##### Donations are always welcome:
 
-| #GRIN | #Ethereum |  #BitCoin |
+| #GRIN | #Ethereum |  #bitcoin |
 | --- |  --- | --- |
 | <a> <img width ='200px'   src ='https://raw.githubusercontent.com/dtrieb123/neuroshack/main/grin.png'>  | <a> <img width ='200px'   src ='https://raw.githubusercontent.com/dtrieb123/neuroshack/main/ETH.png'>  | <a> <img width ='200px'   src ='https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png'>  | 
 
