@@ -1,0 +1,50 @@
+const posts = [
+	{
+		title: 'Welcome',
+		desc: 'Hi welcome to the newly updated site. Simple but to the point. Thanks for visiting. ',
+    date: '03.11.22',
+    url: '#',
+    image: '',
+    id: '6'
+	},
+	{
+		title: 'Silent_Gates-ft.Helios_XII',
+		desc: 'This is a MD illustrating a completed OST (Original Sound Track) single.  <br/> Created by one of NSs concept artists and using a green Crayon, a Pilot G-2 07, and Krita. <br/> These 2 tracks are OST for the The Swamp Chronicals an audiobook series hosted on Youtube.<br/>(youtube.com/link/21903891283) <br/><br/> The powerful voice heard in both is by Helios XII, a dedicated musician and song writer. <br/><br/> name_here, a talented musican/editor who specilizes in drums. Synth/Bass by Madmatik a talented artist, created a unique framework for the crew to add. The .mp3 can also be downloaded at Neuroshack.io and Soundcloud. The creator can use the image but cant modify or alter it. <br/> <br/> Neuroshack Est. 2019',
+    date: '06.04.22',
+    url: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536353006664810497/',
+    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/NS-CREW2.png',
+    id: '5'
+	},
+	{
+		title: 'STRANDED-ft.Helios_XII',
+		desc: '',
+    date: '06.04.22',
+    url: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536351907153182721/',
+    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/NS-CREW2.png',
+    id: '4'
+	},
+	{
+		title: 'Releasing The Swamp Chronicals Part 1',
+		desc: 'This scfi/horror story was developed last year and was intended to be an animation for a film festival. Due to a small budget we only did one part of the story as an audiobook, hope you enjoy it. ',
+    date: '06.02.19',
+    url: 'https://opensea.io/Neuroshack',
+    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/swampN.png',
+    id: '3'
+	},
+	{
+		title: 'New Glitch NFT Launching Soon ',
+		desc: 'NS crew is releasing an old NFT developed last year but never released. Artists: Helios, Valintina, ranker It was a bigger team to help develop this project, thanks to all those involved!',
+    date: '09.16.21',
+    url: 'https://opensea.io/Neuroshack',
+    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/SCHREI.jpg',
+    id: '2'
+	},
+	{
+		title: ' Neuroshacks NFT on Polygon ',
+		desc: 'Our first minted NFT just launched using Polygon, view on opensea.',
+    date: '09.13.21',
+    url: 'https://opensea.io/Neuroshack',
+    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif',
+    id: '1'
+	}
+];
