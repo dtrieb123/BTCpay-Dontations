@@ -52,6 +52,21 @@ background-image: var(--pattern);
 
 }
 
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+    display: table-cell;
+   
+}
+
+pre
+{ font-size: 100%;
+
+}
 
 h1
 {
@@ -89,10 +104,10 @@ font-weight: 900px;
   cursor: crosshair;
   padding: 1px 1px;
   font-size: 100%;
-
-  color: #c08e8e; 
-  border: 1px solid var(--bg);
-  padding: 3px;
+ background-color: var(--bg);
+  color: var(--color1); 
+  border: 1px solid var(--color1);
+  padding: 5px;
 }
 .active, .button12:hover {
  background-color: var(--color2);
