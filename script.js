@@ -32,3 +32,29 @@ const markup = `
 // Insert the template literal into the DOM
 
 blog.innerHTML = markup
+
+// COPY BUTTONS START
+var copy_text_val = document.querySelector('.copy_text');
+
+function Copy() {
+  copy_text_val.select();
+  document.execCommand("copy");
+  console.log(copy_text_val.value);
+} 
+
+var copy_text_val2 = document.querySelector('.copy_text2');
+
+function Copy2() {
+  copy_text_val2.select();
+  document.execCommand("copy");
+  console.log(copy_text_val.value);
+} 
+
+var copy_text_val3 = document.querySelector('.copy_text3');
+
+function Copy3() {
+  copy_text_val3.select();
+  document.execCommand("copy");
+  console.log(copy_text_val.value);
+} 
+// COPY BUTTONS END
