@@ -1,44 +1,79 @@
 {
-  "log": [
-    
-    {
-        "title": "SCHREI by Helios and Valentina - Neuroshack - NFT Music",
-        "action": "https://opensea.io/Neuroshack",
-        "tag": "📀 Music NFT",
-        "desc": "This was our first experimental track for the chronical series. Valintina gave a 'liquid' style intro. and intense vocals from Helios over experimental neurofunk sounds. This was Helios' first track with the NS crew. ",
-        "img":"https://lh3.googleusercontent.com/mnxQdkVPKYmlCJpzzFGbCZl0pxBbScewJuR2DC2KEHN4jnzaH1lwStJp_irIbNESTUguWinpPd26sDY3ty1HOoZ3ruVhJiUwm6sCcA=w600",
-        "file":"https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536348608618299393"
-    },
-    {
-      "title": "The Swamp Chronicals Part 1",
-      "action": "https://opensea.io/Neuroshack",
-      "tag": "💿 Genesis NFT",
-      "desc": "This scfi/horror story was developed last year and was intended to be an animation for a film festival. Due to a small budget we only did one part of the story as an audiobook, hope you enjoy it. ",
-      "img": "https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/swampN.png",
-      "file":"https://opensea.io/Neuroshack"
-    },
-    {
-      "title": "Neuroshack's NFT on Polygon",
-      "action": "https://opensea.io/Neuroshack",
-      "tag": "💿 Polygon NFT",
-      "desc": "Our first minted NFT just launched using Polygon, view on opensea.  ",
-      "img": "https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif",
-      "file":"https://opensea.io/Neuroshack"
-    }
-  ],
-  "net": [
+  "latest.json": [
+
+       { 
+		"N E T W O R K S": "null"
+       },
     {
       "title": "Soundcloud",
-      "action": "https://soundcloud.com/neuroshack",
-      "img": "https://cdn-icons.flaticon.com/png/512/2504/premium/2504939.png?token=exp=1644165644~hmac=803714f8166b8c1bb913a89d837b0ddb",
-      "desc": "Listen on Soundclound"
+      "url": "https://soundcloud.com/neuroshack",
+      "desc": "Listen on Soundclound for our new releases."
+    },
+    {
+      "title": "Opensea",
+      "url": "https://opensea.io/Neuroshack",
+      "desc": "Collect and support for more development by adding us to your collection."
     },
     {
       "title": "Youtube",
-      "action": "https://www.youtube.com/channel/UCYeit9O39VYjYRxVlIStKQw",
-      "img": "https://cdn-icons-png.flaticon.com/512/174/174883.png",
-      "desc": "Watch on YT"
+      "url": "https://www.youtube.com/channel/UCYeit9O39VYjYRxVlIStKQw",
+      "desc": "Neuroshack is a creative project, focused on audio and visual storytelling  Neuroshack started to distribute their work in NFT format, participating in the cryptoart movement since August 2021."
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/dtrieb123/neuroshack",
+      "desc": "Neuroshack is a creative project, focused on audio and visual storytelling  Neuroshack started to distribute their work in NFT format, participating in the cryptoart movement since August 2021."
+    },
+       {
+		"S H O W C A S E": "null"
+       },
+
+    {
+
+      "title": "NEUROSHACK-STRANDED-ft.Helios_XII, NEUROSHACK-Silent_Gates-ft.Helios_XII",
+      "url": "https://www.youtube.com/watch?v=bA14OS_ciLY",
+      "tag": "💿 Music NFT",
+      "artist(s)": "MADMATIC, Helios_XII, tremor_sounds, Vince19drums, _j0ules, dt, titanglade",
+      "text": "null",
+      "file":"https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536351907153182721, https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536353006664810497"
+    },   
+    {
+
+        "title": "NEUROSHACK-Vastness_of_Space - Audiobook Intro",
+	"url": "https://www.youtube.com/watch?v=a0Z9YwqADIg",
+        "desc": "This is the Intro song heard in our audio book, the owner of the NFT has the rights to the song but can't alter it.",
+	"artist(s)": "kralsounds, Vince19drums, _j0ules, Taha S., treskiddos, Purdue U. concept team",       
+	"tag": "📀 Music NFT",
+	 "file": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536350807641554945"
+    },
+    {
+
+        "title": "SCHREI by Helios and Valentina - Neuroshack - NFT Music",
+	"action": "https://www.youtube.com/watch?v=a0Z9YwqADIg",
+        "desc": "null",
+	"artist(s)": "Helios_XII, Valentina Iela",       
+	"tag": "📀 Music NFT",
+	 "file": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536348608618299393"
+    },
+    {
+
+      "title": "The Swamp Chronicals Part 1",
+      "url": "https://www.youtube.com/watch?v=bA14OS_ciLY",
+      "tag": "💿 Genesis NFT",
+      "artist(s)": "lan, B.F. Butcher",
+      "desc": "null",
+      "file":"https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536349708129927169"
+    },
+    {
+
+      "title": "Neuroshack NFT #1",
+      "tag": "💿 MP4 NFT",
+      "artist(s)": "Mackenzie J.B.",
+      "desc": "Our first minted NFT just launched using Polygon, view on opensea.  ",
+      "file":"https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536347509106671617"
     }
   ],
-  "bio": " \n\n Neuroshack is a creative project, focused on audio and visual storytelling \n\n \n Neuroshack started to distribute their work in NFT format, participating in the cryptoart movement since August 2021. \n\n \n main NFT collections created: \n https://opensea.io/Neuroshack \n BTC: bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn  \n ETH: 0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB "
+  "donate": " Please donate towards our space toco fund! ;) ",
+  "BTC": "bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn",
+  "ETH": "0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB"
 }
