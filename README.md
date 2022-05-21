@@ -22,11 +22,11 @@
 
 ##### Buy our NFTs 🖼️: [OpenSEA](https://opensea.io/Neuroshack) 
 
-##### Socials: [Hive](https://hive.blog/) | [DTube](https://dtube.com/) | [Youtube](https://www.youtube.com/) |
+##### Socials: [Soundcloud]([https://soundcloud.com/neuroshack](https://soundcloud.com/neuroshack)) | [Youtube]([https://www.youtube.com/](https://www.youtube.com/channel/UCYeit9O39VYjYRxVlIStKQw/about)) |
 
 ##### Donations are always welcome:
 
-| #GRIN | #Ethereum |  #BitCoin |
+| #GRIN | #Ethereum |  #bitcoin |
 | --- |  --- | --- |
 | <a> <img width ='200px'   src ='https://raw.githubusercontent.com/dtrieb123/neuroshack/main/grin.png'>  | <a> <img width ='200px'   src ='https://raw.githubusercontent.com/dtrieb123/neuroshack/main/ETH.png'>  | <a> <img width ='200px'   src ='https://raw.githubusercontent.com/dtrieb123/neuroshack/main/qrbtc.png'>  | 
 
@@ -34,9 +34,8 @@
 <a > <img width ='100%'  height ='2px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> 
 <a name="todo"></a>
 # TODO-List:
- - 1 Check and edit indext.html /blog/, indext2.html /NFTs/, indext3.html /lore/
- - 2 Mint or share the next NFT on Polygon or share the video on Youtube/Dtube
- - 3 Mint or share the short audiobook on Dtube/Youtube
+ - 1 Fix NFT details to lead to the correct links
+ - 2 Fix .json file
  
 <a> <img width ='100%'  height ='2px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> </a>
 
