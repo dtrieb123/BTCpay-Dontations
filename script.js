@@ -24,7 +24,7 @@ const markup = `
                 <p>${post.desc}</p>
              </li>
              <hr></hr>
-              </a>`
+              `
      ).join('')}
  </ul>
 `;
