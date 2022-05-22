@@ -1,6 +1,14 @@
 const posts = [
+{
+		title: 'Update',
+		desc: 'We are now launching our 2x NFTs and a AMV, check back early next month!',
+    date: '05.22.22',
+    url: '#',
+    image: '',
+    id: '6'
+	},
 	{
-		title: 'Welcome',
+		title: 'Update',
 		desc: 'Hi welcome to the newly updated site. Simple but to the point. Thanks for visiting. ',
     date: '03.11.22',
     url: '#',
@@ -8,16 +16,8 @@ const posts = [
     id: '6'
 	},
 	{
-		title: 'Silent_Gates-ft.Helios_XII',
-		desc: 'This is a MD illustrating a completed OST (Original Sound Track) single.  <br/> Created by one of NSs concept artists and using a green Crayon, a Pilot G-2 07, and Krita. <br/> These 2 tracks are OST for the The Swamp Chronicals an audiobook series hosted on Youtube.<br/>(youtube.com/link/21903891283) <br/><br/> The powerful voice heard in both is by Helios XII, a dedicated musician and song writer. <br/><br/> name_here, a talented musican/editor who specilizes in drums. Synth/Bass by Madmatik a talented artist, created a unique framework for the crew to add. The .mp3 can also be downloaded at Neuroshack.io and Soundcloud. The creator can use the image but cant modify or alter it. <br/> <br/> Neuroshack Est. 2019',
-    date: '06.04.22',
-    url: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536353006664810497/',
-    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/NS-CREW2.png',
-    id: '5'
-	},
-	{
-		title: 'STRANDED-ft.Helios_XII',
-		desc: '',
+		title: 'NEUROSHACK-STRANDED-ft.Helios_XII & NEUROSHACK-Silent_Gates-ft.Helios_XII',
+		desc: 'MADMATIC, Helios_XII, tremor_sounds, Vince19drums, _j0ules, dt, titanglade <br/><br/> This is a MD illustrating a completed OST (Original Sound Track) single. Created by one of NS concept artists and using a green Crayon, a Pilot G-2 07, and Krita. These 2 tracks are part of a OST for the <i>The Swamp Chronicals</i>, an audiobook series. <br/> <br/>The powerful voice heard in both is by Helios XII, a dedicated musician and song writer. <br/><br/> Vince, a talented musican/editor who specilizes in drums. Synth/Bass by MADMATIC a talented artist, created a unique framework for the crew to add. The creator can use the image but cant modify or alter it. <br/> <br/> Neuroshack Est. 2019',
     date: '06.04.22',
     url: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536351907153182721/',
     image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/NS-CREW2.png',
@@ -41,10 +41,11 @@ const posts = [
 	},
 	{
 		title: ' Neuroshacks NFT on Polygon ',
-		desc: 'Our first minted NFT just launched using Polygon, view on opensea.',
+		desc: 'Our first minted NFT just launched using Polygon, view on opensea. Animation: Mackenzie J.B',
     date: '09.13.21',
     url: 'https://opensea.io/Neuroshack',
     image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif',
     id: '1'
 	}
 ];
+
