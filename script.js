@@ -13,7 +13,7 @@ const markup = `
 
             <li>
               <div class="heading">
-                  <h1>${post.title}</h1>
+                  <h1><i>${post.title}</i></h1>
                <span class="date">
                   ${post.date}
                 </span>
