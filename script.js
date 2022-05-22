@@ -9,7 +9,7 @@ posts.sort((b, a) => parseFloat(a.id) - parseFloat(b.id));
 const markup = `
 <ul>
     ${posts.map(post => 
-            `<a style="cursor: crosshair;"href="${post.url}">
+            `
 
             <li>
               <div class="heading">
