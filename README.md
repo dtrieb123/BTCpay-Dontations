@@ -32,15 +32,14 @@
 
 
 <a > <img width ='100%'  height ='2px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> 
+ 
 <a name="todo"></a>
 # TODO-List:
- - 1 Copy/paste updated json details to match OPENSEA NFT details (newly launched NFTs)
  - 2 Upload video / mints 
  - 3 Upload tracks to Soundcloud
  - 4 Upload to Youtube
  - 6 Create contact page with php script
  - 7 Supporting Networks: [Ecency](https://ecency.com/@neuroshack) // [Youtube](https://www.youtube.com/channel/UCYeit9O39VYjYRxVlIStKQw) // [Twitter](https://twitter.com/neuroshack) // [Soundcloud](https://soundcloud.com/neuroshack)
-
  
 <a> <img width ='100%'  height ='2px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> </a>
 
