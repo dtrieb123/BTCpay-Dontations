@@ -1,19 +1,13 @@
 const posts = [
 {
 		title: 'Update',
-		desc: 'We are now launching our 2x NFTs and a AMV, check back early next month!',
+		desc: 'Hi welcome to the newly updated site. Simple but to the point. Check back soon for new NFT releases and a profound AMV introducing our new track.',
     date: '05.22.22',
     url: '#',
     image: '',
     id: '6'
-	},
-	{
-		title: 'Update',
-		desc: 'Hi welcome to the newly updated site. Simple but to the point. Thanks for visiting. ',
-    date: '03.11.22',
-    url: '#',
-    image: '',
-    id: '6'
+	'Hi welcome to the newly updated site. Simple but to the point. Thanks for visiting. ',
+ 
 	},
 	{
 		title: 'NEUROSHACK-STRANDED-ft.Helios_XII & NEUROSHACK-Silent_Gates-ft.Helios_XII',
