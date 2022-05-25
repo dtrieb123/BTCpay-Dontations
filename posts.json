@@ -1,7 +1,7 @@
 const posts = [
 {
-		title: 'Update',
-		desc: 'Hi welcome to the newly updated site. Simple but to the point. Check back soon for new NFT releases and a profound AMV introducing our new track.',
+		title: '// Update',
+		desc: 'Hi welcome to the newly updated site. Simple but to the point. Check back soon for new NFT releases and a profound AMV introducing our special track.',
     		date: '06.22.22',
     		url: '#',
     		image: '',
