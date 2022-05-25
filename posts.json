@@ -6,8 +6,6 @@ const posts = [
     url: '#',
     image: '',
     id: '6'
-	'Hi welcome to the newly updated site. Simple but to the point. Thanks for visiting. ',
- 
 	},
 	{
 		title: 'NEUROSHACK-STRANDED-ft.Helios_XII & NEUROSHACK-Silent_Gates-ft.Helios_XII',
