@@ -12,7 +12,7 @@ const posts = [
 		desc: 'MADMATIC, Helios_XII, tremor_sounds, Vince19drums, _j0ules, dt, titanglade <br/><br/> This is a MD illustrating a completed OST (Original Sound Track) single. Created by one of NS concept artists and using a green Crayon, a Pilot G-2 07, and Krita. These 2 tracks are part of a OST for the <i>The Swamp Chronicals</i>, an audiobook series. <br/> <br/>The powerful voice heard in both is by Helios XII, a dedicated musician and song writer. <br/><br/> Vince, a talented musican/editor who specilizes in drums. Synth/Bass by MADMATIC a talented artist, created a unique framework for the crew to add. The creator can use the image but cant modify or alter it. <br/> <br/> Neuroshack Est. 2019',
     date: '06.01.22',
     url: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/114575206702848530064137917287803621834875060729614287726258536351907153182721/',
-    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/NS-CREW2.png',
+    image: 'media/NS-CREW2.png',
     id: '4'
 	},
 	{
@@ -20,7 +20,7 @@ const posts = [
 		desc: 'This scfi/horror story was developed last year and was intended to be an animation for a film festival. Due to a small budget we only did one part of the story as an audiobook, hope you enjoy it. ',
     date: '03.01.21',
     url: 'https://opensea.io/Neuroshack',
-    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/swampN.png',
+    image: 'media/swampN.png',
     id: '3'
 	},
 	{
@@ -28,7 +28,7 @@ const posts = [
 		desc: 'NS crew is releasing an old NFT developed last year but never released. Artists: Helios, Valintina, ranker It was a bigger team to help develop this project, thanks to all those involved!',
     date: '09.16.20',
     url: 'https://opensea.io/Neuroshack',
-    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/SCHREI.jpg',
+    image: 'media/SCHREI.jpg',
     id: '2'
 	},
 	{
@@ -36,7 +36,7 @@ const posts = [
 		desc: 'Our first minted NFT just launched using Polygon, view on opensea. Animation: Mackenzie J.B',
     date: '04.01.20',
     url: 'https://opensea.io/Neuroshack',
-    image: 'https://raw.githubusercontent.com/dtrieb123/neuroshack/main/gif.gif',
+    image: 'gif.gif',
     id: '1'
 	}
 ];
