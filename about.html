@@ -1,27 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<!--
-
-### updates:
-      -changed menu hyperlinks
-      -blog post
-      -404 error page
-
-### todo:
-      -Find icons/text for platform
-     -Use a json fetch with pages;
-      platform.html / about.html / 404error.html
-     -Find icons/text for platform
-
-### Issues:
-      -glitchy when you test-cycle through menu
-      -fix json to the correct format
-
-/// neuroshack.io
-
-
-
--->
 <head>
 <title> Neuroshack | Blockchain Art and Music</title>	
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -40,8 +18,15 @@
   <meta property="og:site_name" content="neuroshack">
 </head>
 <body>
-
 <center>
+<script>
+span {
+/*page_shift-fix*/
+	width: 100%;
+	height: 100%
+}
+</script>
+<span>
 <pre>
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 ████████░▀██░██░▄▄▄██░██░██░▄▄▀██░▄▄▄░██░▄▄▄░██░██░█░▄▄▀██░▄▄▀██░█▀▄████████
@@ -53,9 +38,7 @@
 <center>
 <a href="index.html" class="button button12">blog</a>  <a href="platforms.html" class="button button12">platforms</a>  <a href="404error.html" class="button button12">minter</a>
 </center> 
-
-<table>
- <ttable>
+<section id="platforms"></section>
 <pre>
     <i><b><u>About</u></i></b>
     <font size="2">modded version from <a href="maxcompose.com" style="cursor:crosshair"><font size="2">maxcompose.com</font></a></font>
@@ -251,9 +234,6 @@ contact: contact@neuroshack.io</br>
 	 <a href="https://www.contributor-covenant.org/translations" style="cursor:crosshair">https://www.contributor-covenant.org/translations</a>	
 </a>
 </pre>
-</ttable>
-<table>
-</center>
 <center>
 <!-- 
 -->
@@ -300,6 +280,48 @@ contact: contact@neuroshack.io</br>
 <!-- -->
 <!-- -->
 </center>
+<center>
+<h5>Support</h5>
+<div class="Row">
+   
+    <div class="Column"><div>
+        <h5 align="center">Donate BTC</h5>
+        <img style="display:block;" src="qrbtc.png" width="100%" height="100%">
+    </div>
+
+    <div style="padding-top: 5px;" align="center">
+        <button class="button button12" onclick="Copy()">Copy</button>
+        <input type="text" style="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: var(--bg);" size="10" maxlength="30" class="copy_text" value="bc1q68cs3uq4an9ljwdaavuteejetym9053sa27yfn">
+    </div>
+
+    </div>
+
+    <div class="Column"><div>
+        <h5 align="center">Donate ETH</h5>
+        <img style="display:block;" src="ETH.png" width="100%" height="100%">
+    </div>
+
+    <div style="padding-top: 5px; content: space-around;" align="center">
+        <button class="button button12" onclick="Copy2()">Copy</button>
+        <input type="text" style="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: var(--bg);" size="10" maxlength="30" class="copy_text2" value="0xfD4F44d62F54951C39FE3af13C175Ad1e2a77aaB">
+    </div>
+      
+    </div>
+
+    <div class="Column"><div>
+        <h5 align="center">Donate GRIN</h5>
+        <img style="display:block;" src="grin.png" width="100%" height="100%">
+    </div>
+
+    <div style="padding-top: 5px;" align="center">
+        <button class="button button12" onclick="Copy3()">Copy</button>
+        <input type="text" style="color: #754f4f; padding: 4px 8px; font-weight: bold; font-size: 11px; border: 2px solid #754f4f; background-color: var(--bg);" size="10" maxlength="30" class="copy_text3" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+    </div>
+      <h5>Coming soon</h5> 
+    </div>
+</div>
+<!-- DONATIONS_end-->
+</center>
 
 
 
@@ -307,19 +329,19 @@ contact: contact@neuroshack.io</br>
 <center>
 
             
-<a href="mailto:d.trieb@mailfence.com" class="button button12">Contact</a> <a href="about.html" class="button button12 active">About</a> 
+<a href="mailto:d.trieb@mailfence.com" class="button button12">Contact</a> <a href="about.html" class="button button12">About</a> 
  <p>© Neuroshack 2022</p>  
 
 
 </center>
 </footer>
 
-<script src="posts.json"></script>
-<script src="script.js"></script>
+<script src="About%20Neuroshack%20|%20Blockchain%20Art%20and%20Music_files/posts.json"></script>
+<script src="About%20Neuroshack%20|%20Blockchain%20Art%20and%20Music_files/script.js"></script>
 
 
-	 </font>
+	</font>
 </center></body></html>
 <!--
-  -   neuroshack.io
+  -  neuroshack.io
 -->
